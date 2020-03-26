@@ -1,20 +1,20 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<!-- START -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="#">
+    <img alt="rodneyrinaldi" src="http://www.rodneyrinaldi.com/rr-cartoon.svg" width="60" />
   </a>
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
-<h1 align="center">
-  RodneyRinaldi by Gatsby
-</h1>
+<h3 align="center">
+  rodneyrinaldi.com by gatsby
+</h3>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor [Excepteur sint occaecat cupidatat non proident](https://www.rodneyrinaldi.com/)._
 
-## 🚀 Quick start
+## 🚀 Smart Project
 
 <!-- END -->
