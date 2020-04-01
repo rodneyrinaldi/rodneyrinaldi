@@ -12,8 +12,7 @@ export const MidiaLinkList = styled.ul`
   list-style: none;
 `
 
-export const MidiaLinkItem = styled.li`
-
+export const MidiaLinkItem = styled.li` 
 `
 export const MidiaLinkLink = styled.a`
   color #8899a6;
@@ -27,6 +26,8 @@ export const MidiaLinkLink = styled.a`
 
 export const IconWrapper = styled.div`
   fill: #bbb;
+  color: #bbb;
   width: 50px;
   height: 50px;
+  background: #414114;
 `

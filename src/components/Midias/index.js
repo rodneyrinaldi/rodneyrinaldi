@@ -10,7 +10,7 @@ const MidiaLink = () => (
     <S.MidiaLinkList>
 
       {links.map((link, i) => {
-        const Icon = Icons[link.label]
+        const Icon = Icons[link.label];
 
         return (
           <S.MidiaLinkItem key={i}>
@@ -19,9 +19,8 @@ const MidiaLink = () => (
               title={link.label}
               target="_blank"
               rel="noopener noreferrer" >
-
               <S.IconWrapper>
-                {Icon}
+                <Icon />
               </S.IconWrapper>
             </S.MidiaLinkLink>
           </S.MidiaLinkItem>
