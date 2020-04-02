@@ -33,3 +33,16 @@ export const LayoutFooter = styled.footer`
   background: #111A1E;
   color: #FCFCFC;
 `
+
+export const LayoutAuthorship = styled.section`
+color: #FFF;
+font-family: 'Segoe UI', sans-serif;
+font-size: .8rem;
+font-weight: 100;
+display: flex;
+width: 100%;
+padding: .6rem;
+
+flex-direction: column;
+align-items: center;
+`

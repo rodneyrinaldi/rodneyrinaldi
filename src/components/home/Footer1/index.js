@@ -22,6 +22,7 @@ const Footer1 = () => (
         <p><S.Footer1Link>conformidade e proteção de dados • </S.Footer1Link></p>
         <p><S.Footer1Link>arquitetura e desenvolvimento de sistemas • </S.Footer1Link></p>
         <p><S.Footer1Link>artigos, notícias e blog • </S.Footer1Link></p>
+        <p><S.Footer1Link>about • </S.Footer1Link></p>
       </S.Footer1Pages>
     </S.Footer1Wrapper>
   </>

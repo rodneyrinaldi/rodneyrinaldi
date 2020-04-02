@@ -38,6 +38,9 @@ const Layout = ({ children, title }) => {
         <S.LayoutFooter>
           <Footer1 />
         </S.LayoutFooter>
+        <S.LayoutAuthorship>
+          Rodney Rinaldi | 2020 | Todos os direitos reservados
+        </S.LayoutAuthorship>
       </S.LayoutPage>
     </>
   )

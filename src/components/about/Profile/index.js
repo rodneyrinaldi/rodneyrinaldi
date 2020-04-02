@@ -21,10 +21,10 @@ const Profile = () => {
   `)
   return (
     <S.ProfileWrapper className="Profile-wrapper">
-      <h1>{title}</h1>
-      <h2>{position}</h2>
-      <h2>{description}</h2>
-      <h2>{author}</h2>
+      <S.ProfileTitle>{title}</S.ProfileTitle>
+      <S.ProfilePosition>{position}</S.ProfilePosition>
+      <S.ProfileDescription>{description}</S.ProfileDescription>
+      <S.ProfileAuthor>{author}</S.ProfileAuthor>
     </S.ProfileWrapper>
   )
 }

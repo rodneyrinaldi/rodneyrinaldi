@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
 export const MidiaWapper = styled.nav`
-  margin 2rem auto;
-  widht: 100%
+  margin 3rem auto;
+  widht: 100%;
 `
 
 export const MidiaLinkList = styled.ul`
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
+  margin-left: 40px;
 `
 
 export const MidiaLinkItem = styled.li` 
@@ -27,7 +28,6 @@ export const MidiaLinkLink = styled.a`
 export const IconWrapper = styled.div`
   fill: #bbb;
   color: #bbb;
-  width: 50px;
-  height: 50px;
-  background: #414114;
+  width: 30px;
+  height: 30px;
 `

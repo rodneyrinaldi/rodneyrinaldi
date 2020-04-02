@@ -4,19 +4,20 @@ import Icons from './Icons';
 import links from './content';
 
 import * as S from './styled';
+import Cartoon from "../Cartoon";
 
 const MidiaLink = () => (
   <S.MidiaWapper>
     <S.MidiaLinkList>
 
       {links.map((link, i) => {
-        const Icon = Icons[link.label];
+        const Icon = Icons[link.lable];
 
         return (
           <S.MidiaLinkItem key={i}>
             <S.MidiaLinkLink
               href={link.url}
-              title={link.label}
+              title={link.lable}
               target="_blank"
               rel="noopener noreferrer" >
               <S.IconWrapper>
@@ -26,6 +27,8 @@ const MidiaLink = () => (
           </S.MidiaLinkItem>
         )
       })}
+
+      <Cartoon />
 
     </S.MidiaLinkList>
   </S.MidiaWapper>
