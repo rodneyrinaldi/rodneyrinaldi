@@ -2,12 +2,13 @@ import styled from "styled-components"
 
 export const Header1Wrapper = styled.section`
 color: #FCFCFC;
-height: 5rem;
+background: #283E4A;
+height: 22rem;
 width: 100%;
-padding-top: 1.8rem;
+padding-top: 15rem;
 display: flex;
 text-align: center;
-font-size: 2.2rem;
+font-size: 4.2rem;
 flex-direction: column;
 align-items: center;
 justify-items: center;

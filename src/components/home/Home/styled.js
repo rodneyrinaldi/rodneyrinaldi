@@ -6,7 +6,7 @@ export const HomeWrapper = styled.section`
   width: 100%;
   min-height: 20vh;
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   
   text-align: center;
   flex-direction: row;

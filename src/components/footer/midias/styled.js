@@ -15,19 +15,19 @@ export const MidiaLinkList = styled.ul`
 
 export const MidiaLinkItem = styled.li` 
 `
+
 export const MidiaLinkLink = styled.a`
   color #8899a6;
   text-decoration: none;
   transition: .5s;
-
-  &:hover {
-    color: #1fa1f2;
-  }
 `
 
 export const IconWrapper = styled.div`
-  fill: #bbb;
-  color: #bbb;
+  fill: #283E4A;
   width: 30px;
   height: 30px;
+
+  &:hover {
+    color: #bbb;
+  }
 `

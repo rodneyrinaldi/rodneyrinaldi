@@ -2,7 +2,8 @@ import styled from "styled-components"
 
 export const Header2Wrapper = styled.section`
 color: #FCFCFC;
-height: 5rem;
+background: #283E4A;
+height: 30rem;
 width: 100%;
 padding-top: 1.8rem;
 display: flex;
