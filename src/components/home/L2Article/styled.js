@@ -1,17 +1,16 @@
 import styled from "styled-components"
 
-export const AboutWrapper = styled.section`
-  color: #283E4A;
-  display: #283E4A;
-  background: #FCFCFC;
+export const L2ArticleWrapper = styled.section`
+  display: #FCFCFC;
+  background: #283E4A;
   width: 100%;
-  min-height: 53vh;
+  min-height: 40vh;
   padding-top: 1rem;
   padding-bottom: 3rem;
-  
+
   text-align: center;
   flex-direction: row;
   align-items: center;
   justify-items: center;
-  
+
 `

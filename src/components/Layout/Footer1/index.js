@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./styled";
-import MidiaLink from "../../Midias";
+import MidiaLink from "../Midias";
 
 const Footer1 = () => (
   <>

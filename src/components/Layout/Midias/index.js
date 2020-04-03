@@ -4,7 +4,7 @@ import Icons from './Icons';
 import links from './content';
 
 import * as S from './styled';
-import Cartoon from "../Cartoon";
+import Cartoon from "../../cartoon";
 
 const MidiaLink = () => (
   <S.MidiaWapper>

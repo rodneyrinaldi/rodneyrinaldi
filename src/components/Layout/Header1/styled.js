@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
-export const Header2Wrapper = styled.section`
+export const Header1Wrapper = styled.section`
 color: #FCFCFC;
+height: 5rem;
 width: 100%;
 padding-top: 1.8rem;
 display: flex;

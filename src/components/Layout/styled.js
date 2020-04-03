@@ -23,13 +23,13 @@ export const LayoutNav = styled.nav`
 
 export const LayoutMain = styled.main`
   background: #16202c;
-  min-height: 61vh;
+  min-height: 53vh;
   width: 100%;
 `
 
 export const LayoutFooter = styled.footer`
   display: flex;
-  min-height: 9rem;
+  height: 11rem;
   background: #111A1E;
   color: #FCFCFC;
 `

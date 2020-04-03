@@ -1,11 +1,10 @@
 import styled from "styled-components"
 
-export const AboutWrapper = styled.section`
-  color: #283E4A;
+export const L1AreasWrapper = styled.section`
   display: #283E4A;
   background: #FCFCFC;
   width: 100%;
-  min-height: 53vh;
+  min-height: 40vh;
   padding-top: 1rem;
   padding-bottom: 3rem;
   

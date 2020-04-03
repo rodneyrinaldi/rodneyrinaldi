@@ -1,9 +1,10 @@
 import styled from "styled-components"
 
-export const Nav2Wrapper = styled.section`
-  color: #4F65E9;
-  background: #FCFCFC;
+export const Nav1Wrapper = styled.section`
+  color: #FFF;
+  background: #283E4A;
   width: 100%;
+  height: 6rem;
   padding-top: 2rem;
   display: flex;
   text-align: center;
