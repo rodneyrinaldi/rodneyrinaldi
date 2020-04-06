@@ -26,19 +26,18 @@ export const NavLink = styled(Link)`
   }
 `
 
-export const EmailWrapper = styled.section`
+export const ArrowWrapper = styled.section`
   color: #FFF;
   background: #283E4A;
   width: 100%;
   height: 7rem;
-  padding-top: 2rem;
   font-size: 1.2em;
   display: flex;
   flex-direction: row;
   justify-content: center;
 `
 
-export const EmailLink = styled(Link)`
+export const ArrowLink = styled(Link)`
   flex-direction: row;
   align-items: top;
   color: #aaa;
@@ -52,19 +51,19 @@ export const EmailLink = styled(Link)`
   }
 `
 
-export const ArrowDownWrapper = styled.section`
+export const EmailWrapper = styled.section`
   color: #FFF;
   background: #283E4A;
   width: 100%;
-  height: 10rem;
-  padding-top: 7rem;
+  height: 6rem;
+  padding-top: 2rem;
   font-size: 1.2em;
   display: flex;
   flex-direction: row;
   justify-content: center;
 `
 
-export const ArrowDownLink = styled(Link)`
+export const EmailLink = styled(Link)`
   flex-direction: row;
   align-items: top;
   color: #aaa;

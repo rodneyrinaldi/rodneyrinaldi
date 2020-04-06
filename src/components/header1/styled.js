@@ -3,9 +3,9 @@ import styled from "styled-components"
 export const Header1Wrapper = styled.section`
 color: #FCFCFC;
 background: #283E4A;
-height: 22rem;
+height: 20rem;
 width: 100%;
-padding-top: 15rem;
+padding-top: 12rem;
 display: flex;
 text-align: center;
 font-size: 4.2rem;

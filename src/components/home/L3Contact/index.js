@@ -6,8 +6,7 @@ import * as S from "./styled"
 const L3Contact = ({ children }) => {
   return (
     <>
-      <S.L3ContactWrapper>
-        <div style={{ height: 300 }}>L3Contact</div>
+      <S.L3ContactWrapper id='L3Contact'>
       </S.L3ContactWrapper>
     </>
   )

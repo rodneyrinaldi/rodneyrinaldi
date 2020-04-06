@@ -6,8 +6,7 @@ import * as S from "./styled"
 const L2Articles = ({ children }) => {
   return (
     <>
-      <S.L2ArticleWrapper>
-        <div style={{ height: 300 }}>L2Articles</div>
+      <S.L2ArticleWrapper id='L2Articles'>
       </S.L2ArticleWrapper>
     </>
   )

@@ -1,20 +1,20 @@
 import React from "react"
-import PropTypes from "prop-types"
 
+import AreaAdv from "./AreaAdv"
+import AreaDpo from "./AreaDpo"
+import AreaDev from "./AreaDev"
 import * as S from "./styled"
 
-const L1Areas = ({ children }) => {
+const L1Areas = () => {
   return (
     <>
-      <S.L1AreasWrapper>
-        <div style={{ height: 300 }}>L1Areas</div>
+      <S.L1AreasWrapper id='L1Areas'>
+        <AreaAdv />
+        <AreaDpo />
+        <AreaDev />
       </S.L1AreasWrapper>
     </>
   )
-}
-
-L1Areas.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default L1Areas

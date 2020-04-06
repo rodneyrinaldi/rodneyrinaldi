@@ -5,11 +5,10 @@ export const HomeWrapper = styled.section`
   display: #283E4A;
   width: 100%;
   min-height: 20vh;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   
   text-align: center;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-items: center;
   

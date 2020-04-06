@@ -1,16 +1,26 @@
 import styled from "styled-components"
+import Img from "gatsby-image"
 
 export const L1AreasWrapper = styled.section`
-  display: #283E4A;
+
   background: #FCFCFC;
   width: 100%;
-  min-height: 40vh;
-  padding-top: 1rem;
-  padding-bottom: 3rem;
+  min-height: 30vh;
   
-  text-align: center;
-  flex-direction: row;
-  align-items: center;
-  justify-items: center;
-  
+  display: flex;
+  justify-content: center;
+  `
+
+export const AreaWrapper = styled.div`
+    margin: 2rem;
+    min-width: 250px;
+    background: #FCFCFC;
+  `
+
+export const AreaWrapperTitle = styled.h1`
+    color: #4F65E9;
+  `
+
+export const IconWrapper = styled(Img)`
+  background: #FCFCFC;
 `
