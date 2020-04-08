@@ -12,5 +12,13 @@ export const L3ContactWrapper = styled.section`
   flex-direction: row;
   align-items: center;
   justify-items: center;
-
+`
+export const L3ContactTitle = styled.h1`
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+`
+export const L3ContactName = styled.input`
+  margin-bottom: 1rem;
+  font-weight: 300;
 `

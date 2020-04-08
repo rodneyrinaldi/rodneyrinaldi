@@ -7,10 +7,14 @@ const Nav1 = () => {
   return (
     <>
       <S.Nav1Wrapper>
+        <a href="http://adv.rodneyrinaldi.com/" target="_blank" rel="noopener noreferrer">
+          teste
+        </a>
         <S.NavLink
           to="http://adv.rodneyrinaldi.com"
           title="adv.rodneyrinaldi.com"
-          target="_blank" >adv</S.NavLink>
+          target="_blank"
+          rel="noopener noreferrer">adv</S.NavLink>
         <spn>&nbsp;&nbsp;|&nbsp;&nbsp;</spn>
         <S.NavLink to="/" >dba</S.NavLink>
         <spn>&nbsp;&nbsp;|&nbsp;&nbsp;</spn>
