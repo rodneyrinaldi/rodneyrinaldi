@@ -7,11 +7,26 @@ const Footer = () => (
     <S.FooterWrapper>
       <S.FooterSites>
         <S.FooterTitle>SITES</S.FooterTitle>
-        <p><S.FooterLink> •  advocacia  http://adv.rodneyrinaldi.com</S.FooterLink></p>
-        <p><S.FooterLink> •  administração de dados  http://dba.rodneyrinaldi.com</S.FooterLink></p>
-        <p><S.FooterLink> •  desenvolvimento de sitemas  http://dev.rodneyrinaldi.com</S.FooterLink></p>
-        <p><S.FooterLink> •  proteção de dados  http://dpo.rodneyrinaldi.com</S.FooterLink></p>
-        <p><S.FooterLink> •  escritório de projetos  http://pmo.rodneyrinaldi.com</S.FooterLink></p>
+        <p><S.FooterLink
+          href="http://adv.rodneyrinaldi.com"
+          title="adv.rodneyrinaldi.com"
+          rel="noopener noreferrer"> •  advocacia  http://adv.rodneyrinaldi.com</S.FooterLink></p>
+        <p><S.FooterLink
+          href="http://dba.rodneyrinaldi.com"
+          title="dba.rodneyrinaldi.com"
+          rel="noopener noreferrer"> •  administração de dados  http://dba.rodneyrinaldi.com</S.FooterLink></p>
+        <p><S.FooterLink
+          href="http://dev.rodneyrinaldi.com"
+          title="dev.rodneyrinaldi.com"
+          rel="noopener noreferrer"> •  desenvolvimento de sitemas  http://dev.rodneyrinaldi.com</S.FooterLink></p>
+        <p><S.FooterLink
+          href="http://dpo.rodneyrinaldi.com"
+          title="dpo.rodneyrinaldi.com"
+          rel="noopener noreferrer"> •  proteção de dados  http://dpo.rodneyrinaldi.com</S.FooterLink></p>
+        <p><S.FooterLink
+          href="http://pmo.rodneyrinaldi.com"
+          title="pmo.rodneyrinaldi.com"
+          rel="noopener noreferrer"> •  escritório de projetos  http://pmo.rodneyrinaldi.com</S.FooterLink></p>
       </S.FooterSites>
       <S.FooterMidias>
         <MidiaLink />

@@ -7,22 +7,31 @@ const Nav1 = () => {
   return (
     <>
       <S.Nav1Wrapper>
-        <a href="http://adv.rodneyrinaldi.com/" target="_blank" rel="noopener noreferrer">
-          teste
-        </a>
         <S.NavLink
-          to="http://adv.rodneyrinaldi.com"
+          href="http://adv.rodneyrinaldi.com"
           title="adv.rodneyrinaldi.com"
           target="_blank"
           rel="noopener noreferrer">adv</S.NavLink>
         <spn>&nbsp;&nbsp;|&nbsp;&nbsp;</spn>
-        <S.NavLink to="/" >dba</S.NavLink>
+        <S.NavLink
+          href="http://dba.rodneyrinaldi.com"
+          title="dba.rodneyrinaldi.com"
+          rel="noopener noreferrer">dba</S.NavLink>
         <spn>&nbsp;&nbsp;|&nbsp;&nbsp;</spn>
-        <S.NavLink to="/" >dev</S.NavLink>
+        <S.NavLink
+          href="http://dev.rodneyrinaldi.com"
+          title="dev.rodneyrinaldi.com"
+          rel="noopener noreferrer">dev</S.NavLink>
         <spn>&nbsp;&nbsp;|&nbsp;&nbsp;</spn>
-        <S.NavLink to="/" >dpo</S.NavLink>
+        <S.NavLink
+          href="http://dpo.rodneyrinaldi.com"
+          title="dpo.rodneyrinaldi.com"
+          rel="noopener noreferrer">dpo</S.NavLink>
         <spn>&nbsp;&nbsp;|&nbsp;&nbsp;</spn>
-        <S.NavLink to="/" >pmo</S.NavLink>
+        <S.NavLink
+          href="http://pmo.rodneyrinaldi.com"
+          title="pmo.rodneyrinaldi.com"
+          rel="noopener noreferrer">pmo</S.NavLink>
       </S.Nav1Wrapper>
       <S.ArrowWrapper>
         <S.ArrowLink to="#L1Areas"><Arrow /></S.ArrowLink>

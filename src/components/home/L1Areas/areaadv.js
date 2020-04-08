@@ -18,11 +18,11 @@ const AreaAdv = () => {
     `
   )
   return <S.AreaWrapper>
-    <Link to="/compliance">
+    <S.AreaWrapperLink to="/compliance">
       <S.IconWrapper fixed={areaImage.childImageSharp.fixed} className="foo" />
       <S.AreaWrapperTitle>Desenvolvimento da justiça,</S.AreaWrapperTitle>
       <S.AreaWrapperTitle>do direito e da cidadania</S.AreaWrapperTitle>
-    </Link>
+    </S.AreaWrapperLink>
   </S.AreaWrapper >
 }
 

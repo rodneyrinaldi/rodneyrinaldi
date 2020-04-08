@@ -38,7 +38,7 @@ export const FooterTitle = styled.h3`
   font-weight: 600;
   padding-bottom: .5rem;  
 `
-export const FooterLink = styled(Link)`
+export const FooterLink = styled.a`
   flex-direction: row;
   align-items: top;
   color: #aaa;

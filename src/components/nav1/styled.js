@@ -12,7 +12,7 @@ export const Nav1Wrapper = styled.section`
   justify-content: center;
 `
 
-export const NavLink = styled(Link)`
+export const NavLink = styled.a`
   flex-direction: row;
   align-items: top;
   color: #aaa;

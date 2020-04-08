@@ -1,3 +1,5 @@
+// https://docs.netlify.com/forms/setup/#submit-forms-via-ajax
+//
 import React from "react"
 import PropTypes from "prop-types"
 
@@ -9,24 +11,22 @@ const L3Contact = ({ children }) => {
       <S.L3ContactWrapper id='L3Contact'>
         <S.L3ContactTitle>C O N T A T O</S.L3ContactTitle>
         <form method="post" action="#">
-          <label>
-            Name
-          <input type="text" name="name" id="name" />
-          </label>
-          <label>
-            Email
-          <input type="email" name="email" id="email" />
-          </label>
-          <label>
-            Subject
-          <input type="text" name="subject" id="subject" />
-          </label>
-          <label>
-            Message
-          <textarea name="message" id="message" rows="5" />
-          </label>
-          <button type="submit" to="/success">Send</button>
-          <input type="reset" value="Clear" />
+          <div>
+            <div>
+              <input type="text" name="name" placeholder="Nome" id="name" width="50%" />
+            </div>
+            <div>
+              <input type="email" name="email" placeholder="E-mail" id="email" />
+            </div>
+          </div>
+          <div>
+            <textarea type="message" name="Message" placeholder="Mensagem" id="message" rows="5" />
+          </div>
+          <div>
+            <button type="submit" to="/success">Send</button>
+            <input type="reset" value="Clear" />
+          </div>
+
         </form>
       </S.L3ContactWrapper>
     </>
