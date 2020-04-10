@@ -1,6 +1,7 @@
 import React from "react"
 import * as S from "./styled"
-import Email from "./email"
+import EmailIcon from "./email"
+import BlogIcon from "./blog"
 import Arrow from "./arrow"
 
 const Nav1 = () => {
@@ -33,12 +34,13 @@ const Nav1 = () => {
           title="pmo.rodneyrinaldi.com"
           rel="noopener noreferrer">pmo</S.NavLink>
       </S.Nav1Wrapper>
+      <S.MessageWrapper>
+        <S.EmailLink to="#L3Contact"><EmailIcon /></S.EmailLink>
+        <S.BlogLink to="/blog"><BlogIcon /></S.BlogLink>
+      </S.MessageWrapper>
       <S.ArrowWrapper>
         <S.ArrowLink to="#L1Areas"><Arrow /></S.ArrowLink>
       </S.ArrowWrapper>
-      <S.EmailWrapper>
-        <S.EmailLink to="#L3Contact"><Email /></S.EmailLink>
-      </S.EmailWrapper>
     </>
   )
 }

@@ -26,6 +26,49 @@ export const NavLink = styled.a`
   }
 `
 
+export const MessageWrapper = styled.section`
+  color: #FFF;
+  background: #283E4A;
+  width: 100%;
+  height: 6rem;
+  padding-top: 1rem;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+`
+
+export const EmailLink = styled(Link)`
+  flex-direction: row;
+  align-items: top;
+  color: #aaa;
+  text-decoration: none;
+  transition: color .5s;
+  line-height: 1rem;
+  widht: 100%;
+  padding-right: 10px;
+
+  &:hover {
+    color: #fff;
+  }
+`
+
+export const BlogLink = styled(Link)`
+  flex-direction: row;
+  align-items: top;
+  color: #aaa;
+  text-decoration: none;
+  transition: color .5s;
+  line-height: 1rem;
+  widht: 100%;
+  padding-top: 3px;
+  padding-left: 10px;
+
+  &:hover {
+    color: #fff;
+  }
+`
+
 export const ArrowWrapper = styled.section`
   color: #FFF;
   background: #283E4A;
@@ -35,35 +78,10 @@ export const ArrowWrapper = styled.section`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 3rem;
 `
 
 export const ArrowLink = styled(Link)`
-  flex-direction: row;
-  align-items: top;
-  color: #aaa;
-  text-decoration: none;
-  transition: color .5s;
-  line-height: 1rem;
-  widht: 100%;
-
-  &:hover {
-    color: #fff;
-  }
-`
-
-export const EmailWrapper = styled.section`
-  color: #FFF;
-  background: #283E4A;
-  width: 100%;
-  height: 6rem;
-  padding-top: 2rem;
-  font-size: 1.2em;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-`
-
-export const EmailLink = styled(Link)`
   flex-direction: row;
   align-items: top;
   color: #aaa;
