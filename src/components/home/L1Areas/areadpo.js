@@ -19,8 +19,8 @@ const AreaDpo = () => {
   return <S.AreaWrapper>
     <S.AreaWrapperLink to="/compliance">
       <S.IconWrapper fixed={areaImage.childImageSharp.fixed} className="foo" />
-      <S.AreaWrapperTitle>Consultoria em privacidade de </S.AreaWrapperTitle>
-      <S.AreaWrapperTitle>dados e conformidade</S.AreaWrapperTitle>
+      <S.AreaWrapperTitle>Conformidade, privacidade,</S.AreaWrapperTitle>
+      <S.AreaWrapperTitle>segrança e proteção de dados</S.AreaWrapperTitle>
     </S.AreaWrapperLink>
   </S.AreaWrapper>
 }

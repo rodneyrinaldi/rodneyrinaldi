@@ -1,22 +1,27 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import * as S from "./styled"
+import Img from "gatsby-image"
 
-const ArticleImage = () => {
-  const { articleImage } = useStaticQuery(
-    graphql`
+export default () => {
+  const data = useStaticQuery(graphql`
     query {
-      articleImage: file(relativePath: {eq: "justice.png"}) {
+      file(relativePath: { eq: "img-area-adv.png" }) {
         childImageSharp {
-          fixed(width: 180, height:180) {
-            ...GatsbyImageSharpFixed_tracedSVG
+          # Specify a fluid image and fragment
+          # The default maxWidth is 800 pixels
+          fluid {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
-  `
+  `)
+  return (
+    <div>
+      <Img
+        fluid={data.file.childImageSharp.fluid}
+        alt="Gatsby Docs are awesome"
+      />
+    </div>
   )
-  return <S.ImageWrapper fixed={articleImage.childImageSharp.fixed} className="foo" />
 }
-
-export default ArticleImage
