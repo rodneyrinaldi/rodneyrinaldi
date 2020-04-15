@@ -14,7 +14,7 @@ const BlogPage = () => (
     <SEO title="Home" />
     <Header2 />
     <Nav2 />
-    <h>Advocacy</h>
+
     <Footer />
     <Authorship />
   </Layout>
