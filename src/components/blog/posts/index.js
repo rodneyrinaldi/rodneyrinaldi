@@ -5,7 +5,10 @@ import * as S from "./styled"
 
 const Blog = ({ children }) => {
   return (
-    <S.BlogWrapper>{children}</S.BlogWrapper>
+    <S.BlogWrapper>
+      <S.PostWrapper>xxxxx</S.PostWrapper>
+      <S.PostWrapper>yyy</S.PostWrapper>
+    </S.BlogWrapper>
   )
 }
 

@@ -17,9 +17,11 @@ const BlogPage = () => (
     <SEO title="Home" />
     <Header2 />
     <Nav2 />
+
     <BlogHeader />
     <BlogPosts />
     <BlogFooter />
+
     <Footer />
     <Authorship />
   </Layout>
