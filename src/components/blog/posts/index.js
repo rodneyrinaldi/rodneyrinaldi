@@ -1,13 +1,17 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import Post from "./post.js"
+
 import * as S from "./styled"
 
 const Blog = ({ children }) => {
   return (
     <S.BlogWrapper>
-      <S.PostWrapper>xxxxx</S.PostWrapper>
-      <S.PostWrapper>yyy</S.PostWrapper>
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </S.BlogWrapper>
   )
 }

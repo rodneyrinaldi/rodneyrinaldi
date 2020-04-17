@@ -1,25 +1,25 @@
 .title-search-adv {
-  border-bottom: solid 8px rgb(89, 95, 107);
+  border-bottom: solid 8px rgb(138, 139, 141);
   height: 2rem;
 }
 
 .title-search-dba {
-  border-bottom: solid 8px rgb(201, 90, 216);
+  border-bottom: solid 8px rgb(212, 140, 221);
   height: 2rem;
 }
 
 .title-search-dev {
-  border-bottom: solid 8px rgb(91, 126, 230);
+  border-bottom: solid 8px rgb(144, 164, 224);
   height: 2rem;
 }
 
 .title-search-dpo {
-  border-bottom: solid 8px rgb(214, 46, 46);
+  border-bottom: solid 8px rgb(219, 121, 121);
   height: 2rem;
 }
 
 .title-search-pmo {
-  border-bottom: solid 8px rgb(247, 118, 58);
+  border-bottom: solid 8px rgb(243, 177, 147);
   height: 2rem;
 }
 

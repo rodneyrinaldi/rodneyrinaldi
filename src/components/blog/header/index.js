@@ -5,7 +5,6 @@ import Filter from "./filter.js"
 import Search from "./search.js"
 
 import * as S from "./styled"
-import "./style.css"
 
 const BlogHeader = ({ children }) => {
   return (
