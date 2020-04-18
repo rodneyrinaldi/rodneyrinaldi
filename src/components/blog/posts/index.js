@@ -8,10 +8,11 @@ import * as S from "./styled"
 const Blog = ({ children }) => {
   return (
     <S.BlogWrapper>
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Post type="adv" />
+      <Post type="dba" />
+      <Post type="dev" />
+      <Post type="dpo" />
+      <Post type="pmo" />
     </S.BlogWrapper>
   )
 }

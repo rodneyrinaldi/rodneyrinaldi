@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import * as S from "./styled"
 import "./style.css"
 
-const Post = ({ children }) => {
+const Post = ({ type, color }) => {
   return (
     <S.PostWrapper>
       <h1 className="post-title">Titulo do artigo</h1>
@@ -15,14 +15,14 @@ const Post = ({ children }) => {
 
       </div>
       <div className="div-description">
-        <div className="post-type">adv</div>
+        <div className={'post-type post-type-' + type}>{type}</div>
         <h1 className="post-description">description asfdasfdasf asdfsd
         asdfasdf asfdasfdasf asdfsd asdfasdf asfdasfdasf asdfsd asdfasdf
         asfdasfdasf asdfsd asdfasdf asfdasfdasf asdfsd asdfasdf asfdasfdasf
         asdfsd asdfasdf asf
         </h1>
       </div>
-    </S.PostWrapper>
+    </S.PostWrapper >
   )
 }
 
