@@ -1,8 +1,6 @@
 .lineWrapper {
   max-width: 900px;
   display: flex;
-  justify-content: space-between;
-  padding: 5px;
   flex-direction: row;
   margin: 0 auto;
   margin-top: .5rem;
@@ -10,17 +8,20 @@
 
 .columnWrapper {
   display: flex;
-  justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 10px;
   flex-direction: column;
+  text-align: left;
   width: 100%;  
+}
+
+.divSpace {
+  width: 30px;
 }
 
 input {
   width: 100%;
   font-size: 15px;
   padding: 10px;
+  margin: 0 auto;
 }
 
 textarea {
@@ -33,30 +34,36 @@ textarea {
 
 button {
   margin-top: 20px;
-  padding: 10px;
+  height: 100%; 
   width: 100%;
   font-size: 16px;
   color: #fbfbfb;
+  border: none;
   background-color: #4F60aa;
 }
 
 button:hover {
-    color: #fff;
-    background-color: #4F65E9;
-    cursor: pointer;
+  height: 100%;  
+  color: #fff;
+  border: none;
+  background-color: #4F65E9;
+  cursor: pointer;
 }
 
 input[type=reset] {
+  height: 100%;  
   margin-top: 20px;
   padding: 10px;
   width: 100%;
   font-size: 16px;
   color: #fbfbfb;
+  border: none;
   background-color: #4F60aa;
 }
 
 input[type=reset]:hover {
     color: #fff;
+    border: none;
     background-color: #4F65E9;
     cursor: pointer;
 }

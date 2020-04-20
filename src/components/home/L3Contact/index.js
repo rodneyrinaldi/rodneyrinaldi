@@ -13,25 +13,33 @@ const L3Contact = ({ children }) => {
         <S.L3ContactTitle>C O N T A T O</S.L3ContactTitle>
         <form method="post" action="#">
           <div className="lineWrapper">
+
             <div className="columnWrapper" >
               <input type="text" name="name" placeholder="Nome" id="name" />
             </div>
+            <div className="divSpace" />
             <div className="columnWrapper">
               <input type="email" name="email" placeholder="E-mail" id="email" />
             </div>
+
           </div>
+
           <div className="lineWrapper">
             <div className="columnWrapper" >
               <textarea type="message" name="Message" placeholder="Mensagem" id="message" rows="5" />
             </div>
           </div>
+
           <div className="lineWrapper">
+
             <div className="columnWrapper">
               <button type="submit" to="/success">ENVIAR</button>
             </div>
+            <div className="divSpace" />
             <div className="columnWrapper">
               <input type="reset" value="LIMPAR" />
             </div>
+
           </div>
 
         </form>
