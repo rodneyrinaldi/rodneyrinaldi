@@ -5,7 +5,7 @@ import MidiaLink from "./Midias";
 const Footer = () => (
   <>
     <S.FooterWrapper>
-      <S.FooterSites>
+      <S.FooterSites className="ocWrapper">
         <S.FooterTitle>SITES</S.FooterTitle>
         <p><S.FooterLink
           href="http://adv.rodneyrinaldi.com"
@@ -31,7 +31,7 @@ const Footer = () => (
       <S.FooterMidias>
         <MidiaLink />
       </S.FooterMidias>
-      <S.FooterPages>
+      <S.FooterPages className="ocWrapper">
         <p><S.FooterTitle>PAGES</S.FooterTitle></p>
         <p><S.FooterLink>direito como exercício da cidadania • </S.FooterLink></p>
         <p><S.FooterLink>conformidade e proteção de dados • </S.FooterLink></p>

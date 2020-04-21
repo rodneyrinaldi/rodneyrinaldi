@@ -17,14 +17,13 @@ align-items: center;
 `
 
 export const PostWrapper = styled(Link)`
-  width: 80%;
+  width: 90%;
   color: #283E4A;
   background: #FCFCFC;
-  // border: solid 1px #777;
   text-decoration: none;
   padding-top: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border: solid 1px #FCFCFC;

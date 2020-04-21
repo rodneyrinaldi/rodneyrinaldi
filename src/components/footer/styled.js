@@ -9,7 +9,6 @@ export const FooterWrapper = styled.section`
   padding-top: .5rem;
 
   flex-direction: row;
-  align-items: top;
   justify-content: space-around;
 `
 
@@ -20,10 +19,19 @@ export const FooterSites = styled.div`
   margin-top: .8rem;
   margin-left: 4rem;
   width: 100%;
+
+  @media(max-width: 500px) {
+      display: none;
+  }
 `
+
 export const FooterMidias = styled.div` 
   text-align: center;
   width: 600px;
+
+  @media(max-width: 500px) {
+    padding-right: 2rem;
+  }
 `
 export const FooterPages = styled.div`
   font-family: 'Segoe UI', sans-serif;
@@ -32,11 +40,16 @@ export const FooterPages = styled.div`
   margin-top: .8rem;
   margin-right: 4rem;
   width: 100%;
+
+  @media(max-width: 500px) {
+      display: none;
+  }
 `
 export const FooterTitle = styled.h3`
-  font-weight: 600;
+  font-weight: 500;
   padding-bottom: .5rem;  
 `
+
 export const FooterLink = styled.a`
   flex-direction: row;
   align-items: top;
@@ -45,6 +58,12 @@ export const FooterLink = styled.a`
   transition: color .5s;
   line-height: 1rem;
   widht: 100%;
+  cursor: pointer;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;  
 
   &:hover {
     color: #fff;

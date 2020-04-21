@@ -15,7 +15,7 @@ export const BlogWrapper = styled.nav`
   align-items: center;
 `
 
-export const FilterWrapper = styled(Link)`
+export const FilterWrapper = styled.div`
   color: #333;
   background: #FCFCFC;
   text-decoration: none;

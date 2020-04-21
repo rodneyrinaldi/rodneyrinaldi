@@ -11,7 +11,6 @@ import * as S from "./styled"
 const Blog = ({ children }) => {
   return (
     <S.BlogWrapper>
-      <ControllerJumpToStart />
       <S.ControlWrapper> <ControllerJumpToStart /> </S.ControlWrapper>
       <S.ControlWrapper> <ControllerFastBackward /> </S.ControlWrapper>
       <S.FilterWrapper>( 0 de 0 )</S.FilterWrapper>
