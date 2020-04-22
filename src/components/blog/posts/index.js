@@ -9,7 +9,7 @@ import * as S from "./styled"
 const Blog = ({ children }) => {
   const { allMarkdownRemark } = useStaticQuery(graphql`
     query PostsList {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
         edges {
           node {
             frontmatter {
@@ -23,8 +23,8 @@ const Blog = ({ children }) => {
           }
         }
       }
-    }`
-  )
+    }
+  `)
   const postList = allMarkdownRemark.edges
   return (
     <S.BlogWrapper>
