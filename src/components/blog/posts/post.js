@@ -4,20 +4,18 @@ import PropTypes from "prop-types"
 import * as S from "./styled"
 import "./style.css"
 
-const Post = ({ category, date, description, title, background, timetoread }) => {
+const Post = ({ slug, category, date, description, title, timetoread }) => {
   return (
-    <S.PostWrapper>
+    <S.PostWrapper to={slug}>
       <h1 className="post-title">{title}</h1>
       <div className="div-datetime">
         <h1 className="post-date">{date}
-          <span className="post-time">{timetoread}</span>
+          <span className="post-time">{timetoread} min para leitura</span>
         </h1>
-
       </div>
       <div className="div-description">
         <div className={'post-type post-type-' + category}>{category}</div>
-        <h1 className="post-description">{description}
-        </h1>
+        <h1 className="post-description">{description}</h1>
       </div>
     </S.PostWrapper >
   )

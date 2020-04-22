@@ -13,41 +13,36 @@ const Blog = ({ children }) => {
         edges {
           node {
             frontmatter {
-              background
               category
               date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
               description
               title
             }
-            timeToRead
+            timeToRead,
+            fields {slug}
           }
         }
       }
     }`
   )
-
   const postList = allMarkdownRemark.edges
-
   return (
     <S.BlogWrapper>
-
-
       {postList.map(({
         node: {
-          frontmatter: { category, date, description, title, background },
-          timeToRead
+          frontmatter: { category, date, description, title },
+          timeToRead,
+          fields: { slug }
         },
       }) => (
           <Post
+            slug={slug}
             category={category}
             date={date}
             description={description}
             title={title}
-            background={background}
             timetoread={timeToRead} />
         ))}
-
-
     </S.BlogWrapper>
   )
 }
