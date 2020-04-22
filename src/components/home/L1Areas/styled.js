@@ -6,16 +6,19 @@ export const L1AreasWrapper = styled.section`
 
   background: #FCFCFC;
   width: 100%;
-  min-height: 23vh;
   
   display: flex;
   justify-content: center;
   `
 
 export const AreaWrapper = styled.div`
-    margin: 2rem;
-    min-width: 250px;
+    margin: 1rem;
+    width: 20vh;
     background: #FCFCFC;
+
+    @media(min-width: 800px) {
+      min-width: 250px;
+    }
   `
 
 export const AreaWrapperTitle = styled.h1`
@@ -29,4 +32,8 @@ export const AreaWrapperLink = styled(Link)`
 
 export const IconWrapper = styled(Img)`
   background: #FCFCFC;
+`
+
+export const Separator = styled.div`
+  width: 3rem;
 `

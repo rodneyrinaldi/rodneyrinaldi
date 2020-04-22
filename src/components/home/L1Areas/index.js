@@ -10,8 +10,10 @@ const L1Areas = () => {
     <>
       <S.L1AreasWrapper id='L1Areas'>
         <AreaAdv />
-        <AreaDpo />
+        <S.Separator />
         <AreaDev />
+        <S.Separator />
+        <AreaDpo />
       </S.L1AreasWrapper>
     </>
   )

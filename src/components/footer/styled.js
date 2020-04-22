@@ -20,7 +20,7 @@ export const FooterSites = styled.div`
   margin-left: 4rem;
   width: 100%;
 
-  @media(max-width: 500px) {
+  @media(max-width: 800px) {
       display: none;
   }
 `
@@ -29,8 +29,9 @@ export const FooterMidias = styled.div`
   text-align: center;
   width: 600px;
 
-  @media(max-width: 500px) {
+  @media(max-width: 800px) {
     padding-right: 2rem;
+    width: 50%;
   }
 `
 export const FooterPages = styled.div`
@@ -41,7 +42,7 @@ export const FooterPages = styled.div`
   margin-right: 4rem;
   width: 100%;
 
-  @media(max-width: 500px) {
+  @media(max-width: 800px) {
       display: none;
   }
 `
@@ -57,13 +58,13 @@ export const FooterLink = styled.a`
   text-decoration: none;
   transition: color .5s;
   line-height: 1rem;
-  widht: 100%;
+  // widht: 100%;
   cursor: pointer;
 
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  direction: ltr;  
+  // overflow: hidden;
+  // text-overflow: ellipsis;
+  // direction: ltr;  
 
   &:hover {
     color: #fff;

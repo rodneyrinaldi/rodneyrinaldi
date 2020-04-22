@@ -5,13 +5,11 @@ export const L2ArticleWrapper = styled.section`
   display: #FCFCFC;
   background: #283E4A;
   width: 100%;
-  padding-top: 3rem;
-  padding-right: 5rem;
-  padding-bottom: 3rem;
-  padding-left: 5rem;
+  padding: 2rem;
 
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-items: center;  
   justify-content: center;
@@ -22,9 +20,9 @@ export const L2Article = styled(Link)`
   background: #FCFCFC;
   margin: 1rem;
   min-height: 60vh;
-  min-width: 40vh;
+  min-width: 50vh;
   height: 60vh;
-  width: 40vh;
+  width: 50vh;
   text-decoration: none;
 `
 

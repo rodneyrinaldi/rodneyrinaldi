@@ -22,7 +22,7 @@ export const PostWrapper = styled(Link)`
   background: #FCFCFC;
   text-decoration: none;
   padding-top: 1rem;
-  padding-left: 1rem;
+  padding-left: 2rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
