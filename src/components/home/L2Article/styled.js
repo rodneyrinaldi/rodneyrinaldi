@@ -48,7 +48,7 @@ export const L2ArticleText = styled.div`
 
 export const BlogLink = styled(Link)`
   position: absolute;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 
   color: #aaa;
   text-decoration: none;
