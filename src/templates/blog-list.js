@@ -15,8 +15,6 @@ import Authorship from "../components/Authorship"
 
 import Post from "../components/blog/posts/post"
 
-import Pagination from "../components/pagination"
-
 import * as S from "../components/blog/posts/styled"
 
 const BlogList = props => {
@@ -61,13 +59,6 @@ const BlogList = props => {
         nextPage={nextPage}
         firstPage={firstPage}
         lastPage={lastPage} />
-      <Pagination
-        isFirst={isFirst}
-        isLast={isLast}
-        currentPage={currentPage}
-        numPages={numPages}
-        prevPage={prevPage}
-        nextPage={nextPage} />
       <Footer />
       <Authorship />
     </Layout>

@@ -58,13 +58,8 @@ export const FooterLink = styled.a`
   text-decoration: none;
   transition: color .5s;
   line-height: 1rem;
-  // widht: 100%;
   cursor: pointer;
-
   white-space: nowrap;
-  // overflow: hidden;
-  // text-overflow: ellipsis;
-  // direction: ltr;  
 
   &:hover {
     color: #fff;
