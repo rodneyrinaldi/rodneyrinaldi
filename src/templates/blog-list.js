@@ -15,10 +15,19 @@ import Authorship from "../components/Authorship"
 
 import Post from "../components/blog/posts/post"
 
+import Pagination from "../components/pagination"
+
 import * as S from "../components/blog/posts/styled"
 
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
+  const { currentPage, numPages } = props.pageContext
+  const isFirst = currentPage === 1
+  const isLast = currentPage === numPages
+  const prevPage = currentPage - 1 === 1 ? `/blog/` : `/blog/page/${currentPage - 1}`
+  const nextPage = `/blog/page/${currentPage + 1}`
+  const firstPage = `/blog/`
+  const lastPage = `/blog/page/${numPages}`
 
   return (
     <Layout title="about">
@@ -43,7 +52,22 @@ const BlogList = props => {
               timetoread={timeToRead} />
           ))}
       </S.BlogWrapper>
-      <BlogFooter />
+      <BlogFooter
+        isFirst={isFirst}
+        isLast={isLast}
+        currentPage={currentPage}
+        numPages={numPages}
+        prevPage={prevPage}
+        nextPage={nextPage}
+        firstPage={firstPage}
+        lastPage={lastPage} />
+      <Pagination
+        isFirst={isFirst}
+        isLast={isLast}
+        currentPage={currentPage}
+        numPages={numPages}
+        prevPage={prevPage}
+        nextPage={nextPage} />
       <Footer />
       <Authorship />
     </Layout>
