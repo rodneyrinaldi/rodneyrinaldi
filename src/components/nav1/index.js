@@ -11,7 +11,7 @@ const Nav1 = () => {
         <S.NavLink
           href="http://adv.rodneyrinaldi.com"
           title="adv.rodneyrinaldi.com"
-          target="_blank"
+          // target="_blank"
           rel="noopener noreferrer">adv</S.NavLink>
         <spn>&nbsp;&nbsp;|&nbsp;&nbsp;</spn>
         <S.NavLink

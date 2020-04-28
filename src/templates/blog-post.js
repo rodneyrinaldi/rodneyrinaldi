@@ -9,6 +9,9 @@ import Authorship from "../components/Authorship"
 import SEO from "../components/seo"
 import Layout from "../components/Layout"
 
+import Navigation from "../components/Post/Navigation.js"
+import Comments from "../components/Post/Comments.js"
+import PostWrapper from "./styled"
 import * as S from "../components/Post/styled.js"
 
 const BlogPost = ({ data }) => {
@@ -20,20 +23,27 @@ const BlogPost = ({ data }) => {
       <Header2 />
       <Nav2 />
 
-      <S.PostHeader>
-        <S.PostDate>
-          {post.frontmatter.PostDate} : {post.frontmatter.timeToRead} min para leitura
-        </S.PostDate>
-        <S.PostTitle>
-          {post.frontmatter.title}
-        </S.PostTitle>
-        <S.PostDescription>
-          {post.frontmatter.PostDescription}
-        </S.PostDescription>
-      </S.PostHeader>
-      <S.MainContent>
-        <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
-      </S.MainContent>
+      <PostWrapper>
+
+        <S.PostHeader>
+          <S.PostDate>
+            {post.frontmatter.PostDate} : {post.frontmatter.timeToRead} min para leitura
+          </S.PostDate>
+          <S.PostTitle>
+            {post.frontmatter.title}
+          </S.PostTitle>
+          <S.PostDescription>
+            {post.frontmatter.PostDescription}
+          </S.PostDescription>
+        </S.PostHeader>
+        <S.MainContent>
+          <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+        </S.MainContent>
+
+      </PostWrapper>
+
+      <Navigation />
+      <Comments />
 
       <Footer />
       <Authorship />

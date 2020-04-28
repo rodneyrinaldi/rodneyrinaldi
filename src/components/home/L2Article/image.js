@@ -2,11 +2,13 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-export default (areaImg) => {
+export default () => {
   const data = useStaticQuery(graphql`
-    query ($areaImg: String) {
-      file(relativePath: { eq: $areaImg }) {
+    query {
+      file(relativePath: { eq: "img-area-adv.png" }) {
         childImageSharp {
+          # Specify a fluid image and fragment
+          # The default maxWidth is 800 pixels
           fluid {
             ...GatsbyImageSharpFluid
           }

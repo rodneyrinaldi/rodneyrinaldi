@@ -5,7 +5,29 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 category: adv
 ---
 
-![Text for the image](/assets/images/rr-logo.png)
+![Text for the image](/assets/images/area-dba.jpg)
+
+````jsx
+  import React from "react"
+  import PropTypes from "prop-types"
+
+  import * as S from "./styled"
+
+  const About = ({ children }) => {
+    return (
+      <>
+        <S.AboutWrapper>{children}</S.AboutWrapper>
+      </>
+    )
+  }
+
+  About.propTypes = {
+    children: PropTypes.node.isRequired,
+  }
+
+  export default About
+````
+
 
 # Dillinger
 
