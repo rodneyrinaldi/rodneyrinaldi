@@ -25,7 +25,7 @@ const BlogPost = ({ data }) => {
 
       <PostWrapper>
 
-        <S.PostHeader>
+        <S.PostHeader id='TopOfPost'>
           <S.PostDate>
             {post.frontmatter.PostDate} : {post.frontmatter.timeToRead} min para leitura
           </S.PostDate>
@@ -40,10 +40,10 @@ const BlogPost = ({ data }) => {
           <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
         </S.MainContent>
 
-      </PostWrapper>
+        <Navigation slug={post.fields.slug} />
+        <Comments />
 
-      <Navigation />
-      <Comments />
+      </PostWrapper>
 
       <Footer />
       <Authorship />
@@ -60,7 +60,10 @@ export const query = graphql`
         title
       },
       html
-      timeToRead
+      timeToRead,
+      fields {
+        slug
+      }
     }
   }
 `

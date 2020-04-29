@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const PostWrapper = styled.section`
+const PostWrapper = styled.section`
   color: #283E4A;
   display: #283E4A;
   background: #FCFCFC;
@@ -8,9 +8,5 @@ export const PostWrapper = styled.section`
   min-height: 63vh;
   padding-top: 1rem;
   padding-bottom: 3rem;
-  
-  text-align: center;
-  flex-direction: row;
-  align-items: center;
-  justify-items: center;
 `
+export default PostWrapper
