@@ -17,7 +17,7 @@ const AboutPage = () => (
   <Layout title="about">
     <SEO title="Home" />
     <Header2 />
-    <Nav2 />
+    <Nav2 urlBack="/" />
     <About>
       <Avatar />
       <Profile />

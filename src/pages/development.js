@@ -13,7 +13,7 @@ const DevelopmentPage = () => (
   <Layout title="about">
     <SEO title="Home" />
     <Header2 />
-    <Nav2 />
+    <Nav2 urlBack="/" />
     <h>Advocacy</h>
     <Footer />
     <Authorship />

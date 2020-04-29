@@ -7,6 +7,7 @@ const PostWrapper = styled.section`
   width: 100%;
   min-height: 63vh;
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
+  font-family: "Courier New", Courier, monospace;
 `
 export default PostWrapper

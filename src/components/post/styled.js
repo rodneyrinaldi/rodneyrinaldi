@@ -16,13 +16,20 @@ export const NavigationWrapper = styled.nav`
   align-items: center;
 `
 
-export const NavigationControlWrapper = styled(Link)`
+export const NavigationIconControlWrapper = styled.div`
   color: #666;
   background: #FCFCFC;
   text-decoration: none;
   padding-left: 2rem;
   padding-right: 2rem;
   width: 84px;
+`
+
+export const NavigationControlWrapper = styled(Link)`
+  color: #666;
+  background: #FCFCFC;
+  text-decoration: none;
+  font-size: 6;
 
   &:hover {
     color: #283E4A;
@@ -31,45 +38,46 @@ export const NavigationControlWrapper = styled(Link)`
 
 //
 
+
 export const PostHeader = styled.header`
   color: var(--postColor);
   margin: auto;
   max-width: 70rem;
-  padding: 5rem 5rem 0;
+  padding: 2rem 5rem 0;
 
   ${media.lessThan("large")`
-    padding: 3rem 0 0;
+    padding: 1rem 0 0;
     max-width: 100%;
   `}
 `
 
 export const PostTitle = styled.h1`
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 700;
   padding: 0 1.4rem;
   margin: 1rem auto;
 
   ${media.lessThan("large")`
-    font-size: 2.8rem;
+    font-size: 2.1rem;
     line-height: 1.1;
     padding: 0 1rem;
   `}
 `
 
 export const PostDescription = styled.h2`
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 200;
   padding: 0 1.4rem;
 
   ${media.lessThan("large")`
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.3;
     padding: 0 1rem;
   `}
 `
 
 export const PostDate = styled.p`
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 100;
   padding: 0 1.4rem;
 
@@ -188,23 +196,23 @@ export const MainContent = styled.section`
   }
 
   h1 {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
 
     ${media.lessThan("large")`
-      font-size: 1.875rem;
+      font-size: 1.675rem;
     `}
   }
 
   h2 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
 
     ${media.lessThan("large")`
-      font-size: 1.375rem;
+      font-size: 1.075rem;
     `}
   }
 
   h3 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 
     ${media.lessThan("large")`
       font-size: 1.125rem;
@@ -212,11 +220,11 @@ export const MainContent = styled.section`
   }
 
   h4 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
   h5 {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 
   strong {

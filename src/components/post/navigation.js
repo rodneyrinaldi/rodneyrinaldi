@@ -1,33 +1,47 @@
 import React from "react"
 import propTypes from "prop-types"
 
-import { ControllerFastBackward } from '@styled-icons/entypo/ControllerFastBackward';
 import { ArrowIosUpwardOutline } from '@styled-icons/evaicons-outline/ArrowIosUpwardOutline';
-import { ControllerFastForward } from '@styled-icons/entypo/ControllerFastForward';
 
 import * as S from "./styled"
 
-const Navigation = ({ slug, isFirst, isLast, currentPage, numPages, prevPage, nextPage }) => (
+const Navigation = ({ node, next, previous }) => (
   <S.NavigationWrapper>
-    {!isFirst && <S.NavigationControlWrapper to={prevPage}>
-      <ControllerFastBackward />
+
+    {previous && <S.NavigationControlWrapper to={previous.fields.slug}>
+      {previous.frontmatter.title}
     </S.NavigationControlWrapper>}
-    <S.NavigationControlWrapper to={slug} >
-      <ArrowIosUpwardOutline />
-    </S.NavigationControlWrapper>
-    {!isLast && <S.NavigationControlWrapper slug={nextPage}>
-      <ControllerFastForward />
+
+    <S.NavigationControlWrapper to={node.fields.slug} >
+      <S.NavigationIconControlWrapper>
+        <ArrowIosUpwardOutline />
+      </S.NavigationIconControlWrapper>
+    </S.NavigationControlWrapper >
+
+    {next && <S.NavigationControlWrapper to={next.fields.slug}>
+      {next.frontmatter.title}
     </S.NavigationControlWrapper>}
-  </S.NavigationWrapper>
+
+  </S.NavigationWrapper >
 )
 
 Navigation.propTypes = {
-  isFirst: propTypes.bool.isRequired,
-  isLast: propTypes.bool.isRequired,
-  currentPage: propTypes.number.isRequired,
-  numPages: propTypes.number.isRequired,
-  prevPage: propTypes.string,
-  nextPage: propTypes.string,
+  previous: propTypes.shape({
+    frontmatter: propTypes.shape({
+      title: propTypes.string.isRequired
+    }),
+    fields: propTypes.shape({
+      slug: propTypes.string.isRequired
+    })
+  }),
+  next: propTypes.shape({
+    frontmatter: propTypes.shape({
+      title: propTypes.string.isRequired
+    }),
+    fields: propTypes.shape({
+      slug: propTypes.string.isRequired
+    })
+  }),
 }
 
 export default Navigation

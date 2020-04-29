@@ -31,7 +31,7 @@ const BlogList = props => {
     <Layout title="about">
       <SEO title="Home" />
       <Header2 />
-      <Nav2 />
+      <Nav2 urlBack="/" />
       <BlogHeader />
       <S.BlogWrapper>
         {postList.map(({

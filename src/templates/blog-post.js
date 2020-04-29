@@ -14,20 +14,22 @@ import Comments from "../components/Post/Comments.js"
 import PostWrapper from "./styled"
 import * as S from "../components/Post/styled.js"
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark
+  const previous = pageContext.nextPost
+  const next = pageContext.previousPost
 
   return (
     <Layout>
       <SEO title={post.frontmatter.title} />
       <Header2 />
-      <Nav2 />
+      <Nav2 urlBack="/blog" />
 
       <PostWrapper>
 
-        <S.PostHeader id='TopOfPost'>
+        <S.PostHeader >
           <S.PostDate>
-            {post.frontmatter.PostDate} : {post.frontmatter.timeToRead} min para leitura
+            {post.frontmatter.date} ­ - ­­­ {post.timeToRead} min para leitura
           </S.PostDate>
           <S.PostTitle>
             {post.frontmatter.title}
@@ -40,7 +42,7 @@ const BlogPost = ({ data }) => {
           <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
         </S.MainContent>
 
-        <Navigation slug={post.fields.slug} />
+        <Navigation node={post} previous={previous} next={next} />
         <Comments />
 
       </PostWrapper>
