@@ -43,7 +43,7 @@ const BlogPost = ({ data, pageContext }) => {
         </S.MainContent>
 
         <Navigation node={post} previous={previous} next={next} />
-        <Comments />
+        <Comments url={post.fields.slug} title={post.frontmatter.title} />
 
       </PostWrapper>
 
@@ -56,16 +56,16 @@ const BlogPost = ({ data, pageContext }) => {
 export const query = graphql`
   query Post($slug: String!) {
     markdownRemark (fields: {slug: {eq: $slug}}) {
+      fields {
+        slug
+      },
       frontmatter {
         date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
         description
         title
       },
       html
-      timeToRead,
-      fields {
-        slug
-      }
+      timeToRead
     }
   }
 `

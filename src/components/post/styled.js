@@ -2,13 +2,46 @@ import styled from "styled-components"
 import media from "styled-media-query"
 import { Link } from "gatsby"
 
+
+export const CommentsWapper = styled.section`
+  margin: auto;
+  max-width: 70rem;
+  padding: 3rem 6rem 3rem;
+  border-top: solid 0.2px #999;;
+
+  iframe[src*="ads-iframe"] {
+    display: name;
+  }
+
+  #disqus_thread {
+    a {
+      color: #1fa1f2!important;
+    }
+  }
+`
+
+export const CommentsTitle = styled.h2`
+  color: #666;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`
+
+
+//
+
+
 export const NavigationWrapper = styled.nav`
   color: #283E4A;
   background: #FCFCFC;
   height: 100%;
   width: 100%;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2.5rem;
 
   display: flex;
   flex-direction: row;

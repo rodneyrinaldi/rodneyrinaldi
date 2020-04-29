@@ -1,3 +1,7 @@
+require("dotenv").config()
+
+const queries = require('./src/utils/algolia-queries.js')
+
 module.exports = {
   siteMetadata: {
     title: `Rodney Rinaldi`,
@@ -54,6 +58,15 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: ``,
+      options: process.env.ALGOLIA_APP_ID,
+      apiKey: process.env.ALGOLIA_ADMIN_KEY,
+      indexName: process.env.ALGOLIA_INDEX_NAME,
+      queries,
+      chunkSize: 10000,
+      enabledPartialUpdates: true,
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
