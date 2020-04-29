@@ -1,4 +1,4 @@
-const PostQuery = `{
+const PostsQuery = `{
   posts: allMarkdownRemark(
       sort: {fields: frontmatter___date, order: DESC}
     ) {
@@ -32,7 +32,7 @@ const flatten = arr =>
 
 const queries = [
   {
-    query: postsQuery,
+    query: PostsQuery,
     transformer: ({ data }) => flatten(data.posts.edges),
     inexName: 'Posts',
     settings: {
