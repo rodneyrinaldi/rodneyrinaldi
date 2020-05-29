@@ -7,7 +7,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === "MarkdownRemark") {
-    const slug = createFilePath({ node, getNode })
+    const slug = createFilePath({ node, getNode, basePath: "pages", })
 
     createNodeField({
       name: "slug",
@@ -27,16 +27,16 @@ exports.createPages = ({ graphql, actions }) => {
     allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             category
-            date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
+            date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
             title
           }
           timeToRead
-          fields {
-            slug
-          }
         }
         next {
           frontmatter {

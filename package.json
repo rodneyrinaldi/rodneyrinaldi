@@ -42,6 +42,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "heroku-postbuild" : "gatsby build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "develop:pg": "GATSBY_GRAPHQL_IDE=playground gatsby develop",

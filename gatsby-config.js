@@ -8,6 +8,7 @@ module.exports = {
     position: `adv & dev `,
     description: `A personal website of rodneyrinaldi.com`,
     author: `@rodneyrinaldi`,
+    siteurl: `http://rodneyrinaldi.com`
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -60,21 +61,21 @@ module.exports = {
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-algolia-search`,
-      option: {
+      options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
         indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
         queries,
         chunkSize: 10000,
-        enabledPartialUpdates: true,
+        enablePartialUpdates: true,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
+        name: `rodneyrinaldi.com`,
+        short_name: `rodneyrinaldi.com`,
+        start_url: `/blog`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,

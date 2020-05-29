@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 const PostsQuery = `{
   posts: allMarkdownRemark(
       sort: {fields: frontmatter___date, order: DESC}
@@ -11,11 +13,11 @@ const PostsQuery = `{
         frontmatter {
           category
           date_timestamp: date
-          date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
+          date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
           description
           title
         }
-        exerpt(pruneLenght:5000)
+        excerpt(pruneLength:5000)
       }
     }
   }
@@ -38,7 +40,6 @@ const queries = [
     settings: {
       attributesToSnippet: ['excerpt:20']
     },
-    matchFields: ['slug', 'modified'],
   }
 ]
 
