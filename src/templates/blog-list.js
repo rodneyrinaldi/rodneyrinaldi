@@ -2,16 +2,16 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import SEO from "../components/seo"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 
-import Header2 from "../components/Header2"
-import Nav2 from "../components/Nav2"
+import Header2 from "../components/header2"
+import Nav2 from "../components/nav2"
 
 import BlogHeader from "../components/blog/header"
 import BlogFooter from "../components/blog/footer"
 
-import Footer from "../components/Footer"
-import Authorship from "../components/Authorship"
+import Footer from "../components/footer"
+import Authorship from "../components/authorship"
 
 import Post from "../components/blog/posts/post"
 

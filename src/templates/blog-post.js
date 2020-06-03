@@ -1,18 +1,18 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Header2 from "../components/Header2"
-import Nav2 from "../components/Nav2"
-import Footer from "../components/Footer"
-import Authorship from "../components/Authorship"
+import Header2 from "../components/header2"
+import Nav2 from "../components/nav2"
+import Footer from "../components/footer"
+import Authorship from "../components/authorship"
 
 import SEO from "../components/seo"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 
-import Navigation from "../components/Post/Navigation.js"
-import Comments from "../components/Post/Comments.js"
+import Navigation from "../components/post/navigation.js"
+import Comments from "../components/post/comments.js"
 import PostWrapper from "./styled"
-import * as S from "../components/Post/styled.js"
+import * as S from "../components/post/styled.js"
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark

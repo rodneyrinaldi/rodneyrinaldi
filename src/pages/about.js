@@ -1,16 +1,16 @@
 import React from "react"
 import SEO from "../components/seo"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 
 import About from "../components/about/About"
 import Avatar from "../components/about/Avatar"
 import Profile from "../components/about/Profile"
 
-import Header2 from "../components/Header2"
-import Nav2 from "../components/Nav2"
+import Header2 from "../components/header2"
+import Nav2 from "../components/nav2"
 
 
-import Footer from "../components/aooter"
+import Footer from "../components/footer"
 import Authorship from "../components/authorship"
 
 const AboutPage = () => (
