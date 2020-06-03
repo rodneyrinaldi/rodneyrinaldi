@@ -1,18 +1,18 @@
 import React from "react"
 
 import SEO from "../components/seo"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 
 import Home from "../components/home/Home"
 import L1Areas from "../components/home/L1Areas"
 import L2Article from "../components/home/L2Article"
 import L3Contact from "../components/home/L3Contact"
 
-import Header1 from "../components/Header1"
-import Nav1 from "../components/Nav1"
+import Header1 from "../components/header1"
+import Nav1 from "../components/nav1"
 
-import Footer from "../components/Footer"
-import Authorship from "../components/Authorship"
+import Footer from "../components/footer"
+import Authorship from "../components/authorship"
 
 const IndexPage = () => (
   <Layout title="home">

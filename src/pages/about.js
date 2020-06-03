@@ -10,8 +10,8 @@ import Header2 from "../components/Header2"
 import Nav2 from "../components/Nav2"
 
 
-import Footer from "../components/Footer"
-import Authorship from "../components/Authorship"
+import Footer from "../components/aooter"
+import Authorship from "../components/authorship"
 
 const AboutPage = () => (
   <Layout title="about">

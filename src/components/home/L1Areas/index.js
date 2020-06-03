@@ -1,8 +1,8 @@
 import React from "react"
 
-import AreaAdv from "./AreaAdv"
-import AreaDpo from "./AreaDpo"
-import AreaDev from "./AreaDev"
+import AreaAdv from "./areaadv"
+import AreaDpo from "./areadpo"
+import AreaDev from "./areadev"
 import * as S from "./styled"
 
 const L1Areas = () => {
