@@ -11,7 +11,7 @@ const L2Articles = ({ children }) => {
     <>
       <S.L2ArticleWrapper id='L2Articles'>
 
-        <S.L2Article to="/post">
+        <S.L2Article to="/blog">
           <div className="article-body">
             <ArticleImage areaImg="img-area-adv.png" />
             <S.L2ArticleTitle>adv</S.L2ArticleTitle>
@@ -26,7 +26,7 @@ const L2Articles = ({ children }) => {
           </div>
         </S.L2Article>
 
-        <S.L2Article to="/post">
+        <S.L2Article to="/blog">
           <div className="article-body">
             <ArticleImage areaImg="img-area-adv.png" />
             <S.L2ArticleTitle>dev</S.L2ArticleTitle>
@@ -41,7 +41,7 @@ const L2Articles = ({ children }) => {
           </div>
         </S.L2Article>
 
-        <S.L2Article to="/post">
+        <S.L2Article to="/blog">
           <div className="article-body">
             <ArticleImage areaImg="img-area-adv.png" />
             <S.L2ArticleTitle>dpo</S.L2ArticleTitle>
