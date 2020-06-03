@@ -46,13 +46,12 @@
   ],
   "license": "MIT",
   "scripts": {
-    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
     "build": "gatsby build",
-    "heroku-postbuild": "echo This runs afterwards.",
     "develop": "gatsby develop",
     "develop:pg": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "startOLD": "npm run develop",
+    "start": "gatsby serve",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
