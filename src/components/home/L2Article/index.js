@@ -28,7 +28,7 @@ const L2Articles = ({ children }) => {
 
         <S.L2Article to="/blog">
           <div className="article-body">
-            <ArticleImage areaImg="img-area-adv.png" />
+            <ArticleImage areaImg="img-area-dev.png" />
             <S.L2ArticleTitle>dev</S.L2ArticleTitle>
             <div>
               <S.L2ArticleDate>10-10-2010</S.L2ArticleDate>
@@ -43,7 +43,7 @@ const L2Articles = ({ children }) => {
 
         <S.L2Article to="/blog">
           <div className="article-body">
-            <ArticleImage areaImg="img-area-adv.png" />
+            <ArticleImage areaImg="img-area-dpo.png" />
             <S.L2ArticleTitle>dpo</S.L2ArticleTitle>
             <div>
               <S.L2ArticleDate>10-10-2010</S.L2ArticleDate>
