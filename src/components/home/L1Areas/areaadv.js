@@ -19,7 +19,7 @@ const AreaAdv = () => {
   return <S.AreaWrapper>
     <S.AreaWrapperLink to="/compliance">
       <S.IconWrapper fixed={areaImage.childImageSharp.fixed} className="foo" />
-      <S.AreaWrapperTitle>Direito, deveres e</S.AreaWrapperTitle>
+      <S.AreaWrapperTitle>Direito, justiça e o</S.AreaWrapperTitle>
       <S.AreaWrapperTitle>exercício da cidadania</S.AreaWrapperTitle>
     </S.AreaWrapperLink>
   </S.AreaWrapper >

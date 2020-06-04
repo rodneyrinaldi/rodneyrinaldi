@@ -1,7 +1,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import ArticleImage from "./image"
+import ArticleImage1 from "./image1"
+import ArticleImage2 from "./image2"
+import ArticleImage3 from "./image3"
 import BlogIcon from "../../nav1/blog"
 import "./style.css"
 import * as S from "./styled"
@@ -13,7 +15,7 @@ const L2Articles = ({ children }) => {
 
         <S.L2Article to="/blog">
           <div className="article-body">
-            <ArticleImage areaImg="img-area-adv.png" />
+            <ArticleImage1 areaImg="img-area-adv.png" />
             <S.L2ArticleTitle>adv</S.L2ArticleTitle>
             <div>
               <S.L2ArticleDate>10-10-2010</S.L2ArticleDate>
@@ -28,7 +30,7 @@ const L2Articles = ({ children }) => {
 
         <S.L2Article to="/blog">
           <div className="article-body">
-            <ArticleImage areaImg="img-area-dev.png" />
+            <ArticleImage2 areaImg="img-area-dev.png" />
             <S.L2ArticleTitle>dev</S.L2ArticleTitle>
             <div>
               <S.L2ArticleDate>10-10-2010</S.L2ArticleDate>
@@ -43,7 +45,7 @@ const L2Articles = ({ children }) => {
 
         <S.L2Article to="/blog">
           <div className="article-body">
-            <ArticleImage areaImg="img-area-dpo.png" />
+            <ArticleImage3 areaImg="img-area-dpo.png" />
             <S.L2ArticleTitle>dpo</S.L2ArticleTitle>
             <div>
               <S.L2ArticleDate>10-10-2010</S.L2ArticleDate>
