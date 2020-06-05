@@ -1,7 +1,7 @@
 import React from "react"
 
 import SEO from "../components/seo"
-import Layout from "../components/layout"
+import Layout from "../components/wrapper"
 
 import Home from "../components/home/Home"
 import L1Areas from "../components/home/L1Areas"

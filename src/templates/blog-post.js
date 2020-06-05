@@ -7,7 +7,7 @@ import Footer from "../components/footer"
 import Authorship from "../components/authorship"
 
 import SEO from "../components/seo"
-import Layout from "../components/layout"
+import Layout from "../components/wrapper"
 
 import Navigation from "../components/post/navigation.js"
 import Comments from "../components/post/comments.js"

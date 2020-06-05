@@ -1,6 +1,6 @@
 import React from "react"
 import SEO from "../components/seo"
-import Layout from "../components/layout"
+import Layout from "../components/wrapper"
 
 import About from "../components/about/About"
 import Avatar from "../components/about/Avatar"
