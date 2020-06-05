@@ -15,22 +15,22 @@ const Nav1 = () => {
           rel="noopener noreferrer">adv</S.NavLink>
         <spn>&nbsp;&nbsp;|&nbsp;&nbsp;</spn>
         <S.NavLink
-          href="http://dba.rodneyrinaldi.com"
+          href="#"
           title="dba.rodneyrinaldi.com"
           rel="noopener noreferrer">dba</S.NavLink>
         <spn>&nbsp;&nbsp;|&nbsp;&nbsp;</spn>
         <S.NavLink
-          href="http://dev.rodneyrinaldi.com"
+          href="#"
           title="dev.rodneyrinaldi.com"
           rel="noopener noreferrer">dev</S.NavLink>
         <spn>&nbsp;&nbsp;|&nbsp;&nbsp;</spn>
         <S.NavLink
-          href="http://dpo.rodneyrinaldi.com"
+          href="#"
           title="dpo.rodneyrinaldi.com"
           rel="noopener noreferrer">dpo</S.NavLink>
         <spn>&nbsp;&nbsp;|&nbsp;&nbsp;</spn>
         <S.NavLink
-          href="http://pmo.rodneyrinaldi.com"
+          href="#"
           title="pmo.rodneyrinaldi.com"
           rel="noopener noreferrer">pmo</S.NavLink>
       </S.Nav1Wrapper>
