@@ -47,7 +47,6 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "heroku-postbuild": "ng build --prod",
     "develop": "gatsby develop",
     "develop:pg": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
