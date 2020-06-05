@@ -14,7 +14,7 @@ import Footer from "../components/footer"
 import Authorship from "../components/authorship"
 
 const AboutPage = () => (
-  <Layout title="about">
+  <Layout>
     <SEO title="Home" />
     <Header2 />
     <Nav2 urlBack="/" />

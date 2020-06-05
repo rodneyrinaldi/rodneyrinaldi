@@ -15,7 +15,7 @@ import Footer from "../components/footer"
 import Authorship from "../components/authorship"
 
 const IndexPage = () => (
-  <Layout title="home">
+  <Layout>
     <SEO title="Home" />
     <Header1 />
     <Nav1 />

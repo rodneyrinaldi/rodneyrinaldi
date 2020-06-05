@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import * as S from "./styled"
 import GlobalStyles from "../../styles/global"
 
-const Layout = ({ children, title }) => {
+const Layout = ({ children }) => {
 
   return (
     <>

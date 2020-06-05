@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import SEO from "../components/seo"
-import Layout from "../components/layout/index.js"
+import Layout from "../components/layout"
 
 import Header2 from "../components/header2"
 import Nav2 from "../components/nav2"
@@ -28,7 +28,7 @@ const BlogList = props => {
   const lastPage = `/blog/page/${numPages}`
 
   return (
-    <Layout title="about">
+    <Layout>
       <SEO title="Home" />
       <Header2 />
       <Nav2 urlBack="/" />
