@@ -6,6 +6,8 @@ export const L1AreasWrapper = styled.section`
 
   background: #FCFCFC;
   width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   
   display: flex;
   justify-content: center;
