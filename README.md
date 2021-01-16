@@ -6,7 +6,7 @@
 </p>
 
 <h3 align="center">
-  Personal website rodneyrinaldi.com by gatsby
+  Personal website rodneyrinaldi.com
 </h3>
 
 <p align="center">
