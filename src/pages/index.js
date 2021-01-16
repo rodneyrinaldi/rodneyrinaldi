@@ -1,5 +1,14 @@
-import Home from '../../components/home'
+import Head from 'next/head'
+import Home from '../components/home'
 
 export default function Index() {
-  return (<Home />)
+  return (
+    <>
+      <Head>
+        <title>Rodney Rinaldi Page</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Home />
+    </>
+  )
 }
