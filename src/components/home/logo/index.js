@@ -24,25 +24,8 @@ export default function Logo() {
               <li>dpo</li>
             </ul>
           </nav>
-          {/* <nav>
-            <ul>
-              <li>
-                <Link href="/contact">
-                  <a>
-                    <Image
-                      src="/email.svg"
-                      alt="rodney rinaldi"
-                      layout="intrinsic"
-                      width={50}
-                      height={50}
-                    />
-                  </a>
-                </Link>
-              </li>
-            </ul>
-          </nav> */}
           <Link href="/contact">
-            <a className={styles.xxx}>
+            <a className={styles.linkEmail}>
               <Image
                 src="/email.svg"
                 alt="rodney rinaldi"

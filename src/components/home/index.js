@@ -1,11 +1,13 @@
-import Logo from '../../components/home/logo'
-import Nav from '../../components/home/nav'
+import LogoComp from '../../components/home/logo'
+import NavComp from '../../components/home/nav'
+import FooterComp from '../home/footer'
 
 export default function Home() {
   return (
     <>
-      <Logo />
-      <Nav />
+      <LogoComp />
+      <NavComp />
+      <FooterComp />
     </>
   )
 }
