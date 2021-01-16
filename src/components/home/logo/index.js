@@ -41,14 +41,14 @@ export default function Logo() {
               </li>
             </ul>
           </nav> */}
-          <Link href="/contact" className={styles.xxx}>
-            <a>
+          <Link href="/contact">
+            <a className={styles.xxx}>
               <Image
                 src="/email.svg"
                 alt="rodney rinaldi"
                 layout="intrinsic"
-                width={50}
-                height={50}
+                width={40}
+                height={40}
               />
             </a>
           </Link>
