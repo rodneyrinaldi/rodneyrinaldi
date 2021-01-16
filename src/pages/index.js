@@ -11,8 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.mainLayer}>
-        <div className={styles.rrLogo}>
+      <div className={styles.stripDark}>
+        <div className={styles.tierMain}>
           <Image
             src="/rodneyrinaldi.svg"
             alt="rodney rinaldi"
@@ -20,26 +20,26 @@ export default function Home() {
             width={780}
             height={135}
           />
+          <nav>
+            <ul>
+              <li>adv</li>
+              {' | '}
+              <li>dev</li>
+              {' | '}
+              <li>dpo</li>
+            </ul>
+          </nav>
         </div>
+      </div>
 
-        <nav>
-          <ul>
-            <li>adv</li>
-            {' | '}
-            <li>dev</li>
-            {' | '}
-            <li>dpo</li>
-          </ul>
-        </nav>
-      </main>
+      <div className={styles.stripLight}>
 
-      <nav>
+      </div>
 
-      </nav>
+      <div className={styles.stripDark}>
 
-      <footer>
+      </div>
 
-      </footer>
 
     </>
   )

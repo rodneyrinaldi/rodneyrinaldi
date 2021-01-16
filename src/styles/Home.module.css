@@ -1,33 +1,56 @@
-.rrLogo {
-  width: 600px;
-  max-width: 600px;
+.stripDark {
+  width: 100%;
+  height: 100%;
+  color: #e6ecf0;
+  background: #283E4A;
+  padding: 0 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.mainLayer {
-  height: 70vh;
+.stripLight {
+  width: 100%;
+  height: 100%;
+  color: #283E4A;
+  background: #e6ecf0;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tierMain {  
+  height: 60vh;
   max-width: 1100px;
-  margin: 0 auto;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  color: aliceblue;
+  background: #283E4A;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25);
 }
 
-.mainLayer nav ul {
+.tierMain nav ul {
   display: flex;
   align-items: center;
   list-style: none;
   margin-top: 10px;
 }
 
-.mainLayer nav ul li {
+.tierMain nav ul li {
   font-size: 1.4rem;
   color: #e6ecf0;
   font-weight: 300;
   margin: 0 15px;
 }
+
+
+
 
 
 /* ------------- */

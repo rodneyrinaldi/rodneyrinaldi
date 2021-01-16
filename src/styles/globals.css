@@ -10,8 +10,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  background: #283E4A;
-  color: aliceblue;
+  background: #e6ecf0;
+  color:darkslategrey;
 }
 
 a {
