@@ -8,6 +8,19 @@ export default function Logo() {
     <>
       <div className='stripDark'>
         <div className={styles.tierMain}>
+          <div className="backButton">
+            <Link href="/">
+              <a>
+                <Image
+                  src="/back.svg"
+                  alt="voltar"
+                  layout="intrinsic"
+                  width={24}
+                  height={24}
+                />
+              </a>
+            </Link>
+          </div>
           <div>
             <Image
               src="/profile.png"
@@ -16,7 +29,6 @@ export default function Logo() {
               width={144}
               height={154}
             />
-            <br />
             <Image
               src="/rodneyrinaldi.svg"
               alt="rodney rinaldi"
@@ -24,9 +36,7 @@ export default function Logo() {
               width={390}
               height={77}
             />
-            <br />
             <h3>adv & dev</h3>
-            <br />
             <p>Formação em Direito e Tecnologia com pós-graduações em Direito, Negócios e Comunicação</p>
             <p>Direito Civil e Processual, Imobiliário, Empresarial, Trabalhista, Digital e Tânsito</p>
             <p>Ecossistemas Javascript e Microsoft; SAP CRM, Dynamics CRM e SalesForce</p>

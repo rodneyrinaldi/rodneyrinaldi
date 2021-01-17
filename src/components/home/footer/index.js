@@ -36,6 +36,19 @@ export default function Nav() {
               </Link>
             </li>
             <li>
+              <Link href="/profile">
+                <a>
+                  <Image
+                    src="/rr-body.png"
+                    alt="rodney rinaldi dpo"
+                    layout="intrinsic"
+                    width={40}
+                    height={50}
+                  />
+                </a>
+              </Link>
+            </li>
+            <li>
               <Link href="http://facebook.com/rodneyrinaldi">
                 <a>
                   <Image
@@ -55,21 +68,8 @@ export default function Nav() {
                     src="/twitter.svg"
                     alt="profile rodney rinaldi"
                     layout="intrinsic"
-                    width={28}
-                    height={28}
-                  />
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/profile">
-                <a>
-                  <Image
-                    src="/rr-body.png"
-                    alt="rodney rinaldi dpo"
-                    layout="intrinsic"
-                    width={36}
-                    height={36}
+                    width={26}
+                    height={26}
                   />
                 </a>
               </Link>

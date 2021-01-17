@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import styles from './index.module.css'
 
-export default function Contact() {
+export default function Technology() {
   return (
     <>
       <div className='stripDark'>

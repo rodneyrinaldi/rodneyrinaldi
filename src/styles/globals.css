@@ -26,6 +26,10 @@ a {
   color: #e6ecf0;
   background: #283E4A;
   padding: 0 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .stripLight {
@@ -33,4 +37,8 @@ a {
   height: 100%;
   color: #283E4A;
   background: #e6ecf0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

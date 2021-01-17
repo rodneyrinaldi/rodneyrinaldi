@@ -10,7 +10,7 @@ export default function Nav() {
         <nav>
           <ul>
             <li>
-              <Link href="#">
+              <Link href="/advocacy">
                 <a>
                   <Image
                     src="/adv.svg"
@@ -24,7 +24,7 @@ export default function Nav() {
             Advocacia
           </li>
             <li>
-              <Link href="#">
+              <Link href="/technology">
                 <a>
                   <Image
                     src="/dev.svg"
@@ -38,7 +38,7 @@ export default function Nav() {
             Tecnologia
           </li>
             <li>
-              <Link href="#">
+              <Link href="/compliance">
                 <a>
                   <Image
                     src="/dpo.svg"
