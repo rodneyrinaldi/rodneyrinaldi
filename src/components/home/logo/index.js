@@ -7,7 +7,7 @@ export default function Logo() {
   return (
     <div className='stripDark'>
       <div className={styles.tierMain}>
-        <div>
+        <div className={styles.logo}>
           <Image
             src="/rodneyrinaldi.svg"
             alt="rodney rinaldi"
@@ -43,17 +43,19 @@ export default function Logo() {
             </li>
           </ul>
         </nav>
-        <Link href="/contact">
-          <a className={styles.linkEmail}>
-            <Image
-              src="/email.svg"
-              alt="rodney rinaldi"
-              layout="intrinsic"
-              width={36}
-              height={36}
-            />
-          </a>
-        </Link>
+        <div className={styles.email}>
+          <Link href="/contact">
+            <a className={styles.linkEmail}>
+              <Image
+                src="/email.svg"
+                alt="rodney rinaldi"
+                layout="intrinsic"
+                width={36}
+                height={36}
+              />
+            </a>
+          </Link>
+        </div>
       </div>
     </div>
   )

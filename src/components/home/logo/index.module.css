@@ -1,5 +1,5 @@
 .tierMain {  
-  height: 65vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,12 +8,13 @@
   background: #283E4A;
 }
 
-.tierMain div {
+.logo {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 75vw;
   max-width: 600px;
+  margin-top: 70px;
 }
 
 .tierMain nav ul {
@@ -35,12 +36,18 @@
   border-radius: 5px;
 }
 
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
 
 .linkEmail {
   display: flex;
   align-items: center;
   list-style: none;
-  margin: 70px 0 20px;
 }
 
 .linkEmail:hover {
