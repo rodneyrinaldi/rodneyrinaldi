@@ -10,11 +10,11 @@ export default function Nav() {
         <nav>
           <ul>
             <li>
-              <Link href="#">
+              <Link href="http://linkedin.com/in/rodneyrinaldi">
                 <a>
                   <Image
                     src="/linkedin.svg"
-                    alt="rodney rinaldi adv"
+                    alt="linkedin rodney rinaldi"
                     layout="intrinsic"
                     width={28}
                     height={28}
@@ -23,11 +23,11 @@ export default function Nav() {
               </Link>
             </li>
             <li>
-              <Link href="#">
+              <Link href="http://github.com/rodneyrinaldi">
                 <a>
                   <Image
                     src="/github.svg"
-                    alt="rodney rinaldi dev"
+                    alt="github rodney rinaldi"
                     layout="intrinsic"
                     width={28}
                     height={28}
@@ -36,11 +36,11 @@ export default function Nav() {
               </Link>
             </li>
             <li>
-              <Link href="#">
+              <Link href="http://facebook.com/rodneyrinaldi">
                 <a>
                   <Image
                     src="/facebook.svg"
-                    alt="rodney rinaldi dpo"
+                    alt="facebook rodney rinaldi"
                     layout="intrinsic"
                     width={28}
                     height={28}
@@ -49,11 +49,11 @@ export default function Nav() {
               </Link>
             </li>
             <li>
-              <Link href="#">
+              <Link href="http://twitter.com/rodneyrinaldi">
                 <a>
                   <Image
                     src="/twitter.svg"
-                    alt="rodney rinaldi dpo"
+                    alt="profile rodney rinaldi"
                     layout="intrinsic"
                     width={28}
                     height={28}
@@ -62,7 +62,7 @@ export default function Nav() {
               </Link>
             </li>
             <li>
-              <Link href="#">
+              <Link href="/profile">
                 <a>
                   <Image
                     src="/rr-body.png"
