@@ -1,10 +1,5 @@
 .tierMain {
-  height: 100%;
-
-  max-width: 1100px;
-  margin: 20px auto;
-  padding: 20px 0;
-
+  height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,18 +7,13 @@
 }
 
 .tierMain nav ul {
-  list-style: none;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .tierMain nav ul li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1rem;
-  color: #283E4A;
-  font-weight: 400;
+  list-style: none;
   padding: 10px;
 }
 
@@ -32,26 +22,11 @@
   border-radius: 5px;
 }
 
-
-
-
 /* ------------- */
 
-
-
 @media (max-width: 900px) {  
-  .tierMain nav ul li {
-    min-width: 0px;
-    margin: 2px;
-    padding: 0;
-  }
 }
 
 @media (max-width: 1100px) {  
-  .tierMain nav ul li {
-    min-width: 40px;
-    margin: 2px;
-    padding: 2px;
-  }
 }
   

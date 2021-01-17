@@ -49,10 +49,9 @@ export default function Nav() {
                   />
                 </a>
               </Link>
-            Conformidade
+            Privacidade
           </li>
           </ul>
-
         </nav>
       </div>
     </div>

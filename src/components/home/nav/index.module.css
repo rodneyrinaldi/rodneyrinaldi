@@ -1,15 +1,9 @@
 .tierMain {
-  height: 100%;
-
-  max-width: 1100px;
-  margin: 10px auto;
-  padding: 20px 0;
-
+  height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   box-shadow: 0 1px 1px rgba(0,0,0,0.25);
 }
 
@@ -20,13 +14,15 @@
 }
 
 .tierMain nav ul li {
+  width: 180;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1rem;
+  justify-content: center;
   color: #283E4A;
+  font-size: 1rem;
   font-weight: 400;
-  margin: 0 50px;
+  margin: 0 36px;
   padding: 10px;
 }
 
@@ -35,24 +31,17 @@
   border-radius: 22px;
 }
 
-
-
-
 /* ------------- */
 
-
-
-@media (max-width: 900px) {  
+@media (max-width: 900px) { 
   .tierMain nav ul li {
-    margin: 0 46px;
-    min-width: 0px;
+    margin: 0 6px;
   }
 }
 
-@media (max-width: 1100px) {  
+@media (max-width: 1100px) { 
   .tierMain nav ul li {
-    margin: 0 14px;
-    min-width: 40px;
-  }
+    margin: 0 6px;
+  } 
 }
   

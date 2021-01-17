@@ -75,7 +75,6 @@ export default function Nav() {
               </Link>
             </li>
           </ul>
-
         </nav>
       </div>
     </div>
