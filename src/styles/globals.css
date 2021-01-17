@@ -10,7 +10,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  background: #e6ecf0;
+  background: #283E4A;
+  /* background: #e6ecf0; */
   color:darkslategrey;
 }
 
@@ -26,9 +27,9 @@ a {
   background: #283E4A;
   padding: 0 40px;
 
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .stripLight {
@@ -37,7 +38,7 @@ a {
   color: #283E4A;
   background: #e6ecf0;
 
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }

@@ -3,68 +3,81 @@ import Image from 'next/image'
 
 import styles from './index.module.css'
 
-export default function Footer() {
+export default function Nav() {
   return (
-    <>
-      <div className='stripDark'>
-        <div className={styles.tierMain}>
-          <Link href="https://linkedin.com/in/rodneyrinaldi">
-            <a className={styles.linkMidias}>
-              <Image
-                src="/linkedin.svg"
-                alt="Linkedin"
-                layout="intrinsic"
-                width={30}
-                height={30}
-              />
-            </a>
-          </Link>
-          <Link href="https://github.com/rodneyrinaldi">
-            <a className={styles.linkMidias}>
-              <Image
-                src="/github.svg"
-                alt="Github"
-                layout="intrinsic"
-                width={30}
-                height={30}
-              />
-            </a>
-          </Link>
-          <Link href="https://facebook.com/rodneyrinaldi">
-            <a className={styles.linkMidias}>
-              <Image
-                src="/facebook.svg"
-                alt="Facebook"
-                layout="intrinsic"
-                width={30}
-                height={30}
-              />
-            </a>
-          </Link>
-          <Link href="https://twitter.com/rodneyrinaldi">
-            <a className={styles.linkMidias}>
-              <Image
-                src="/twitter.svg"
-                alt="Twitter"
-                layout="intrinsic"
-                width={30}
-                height={30}
-              />
-            </a>
-          </Link>
-          <Link href="#">
-            <a className={styles.linkMidias}>
-              <Image
-                src="/rr-body.png"
-                alt="Rodney"
-                layout="intrinsic"
-                width={42}
-                height={46}
-              />
-            </a>
-          </Link>
-        </div>
+    <div className='stripDark'>
+      <div className={styles.tierMain}>
+        <nav>
+          <ul>
+            <li>
+              <Link href="#">
+                <a>
+                  <Image
+                    src="/linkedin.svg"
+                    alt="rodney rinaldi adv"
+                    layout="intrinsic"
+                    width={28}
+                    height={28}
+                  />
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#">
+                <a>
+                  <Image
+                    src="/github.svg"
+                    alt="rodney rinaldi dev"
+                    layout="intrinsic"
+                    width={28}
+                    height={28}
+                  />
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#">
+                <a>
+                  <Image
+                    src="/facebook.svg"
+                    alt="rodney rinaldi dpo"
+                    layout="intrinsic"
+                    width={28}
+                    height={28}
+                  />
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#">
+                <a>
+                  <Image
+                    src="/twitter.svg"
+                    alt="rodney rinaldi dpo"
+                    layout="intrinsic"
+                    width={28}
+                    height={28}
+                  />
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#">
+                <a>
+                  <Image
+                    src="/rr-body.png"
+                    alt="rodney rinaldi dpo"
+                    layout="intrinsic"
+                    width={36}
+                    height={36}
+                  />
+                </a>
+              </Link>
+            </li>
+          </ul>
+
+        </nav>
       </div>
-    </>
+    </div>
   )
 }

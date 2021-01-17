@@ -17,11 +17,29 @@ export default function Logo() {
           />
           <nav>
             <ul>
-              <li>adv</li>
+              <li>
+                <Link href="http://adv.rodneyrinaldi.com">
+                  <a>
+                    adv
+                  </a>
+                </Link>
+              </li>
               {' | '}
-              <li>dev</li>
+              <li>
+                <Link href="http://adv.rodneyrinaldi.com">
+                  <a>
+                    dev
+                  </a>
+                </Link>
+              </li>
               {' | '}
-              <li>dpo</li>
+              <li>
+                <Link href="http://adv.rodneyrinaldi.com">
+                  <a>
+                    dpo
+                  </a>
+                </Link>
+              </li>
             </ul>
           </nav>
           <Link href="/contact">
@@ -30,8 +48,8 @@ export default function Logo() {
                 src="/email.svg"
                 alt="rodney rinaldi"
                 layout="intrinsic"
-                width={40}
-                height={40}
+                width={36}
+                height={36}
               />
             </a>
           </Link>
