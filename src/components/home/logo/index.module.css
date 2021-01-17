@@ -1,5 +1,5 @@
 .tierMain {  
-  height: 60vh;
+  height: 58vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,7 @@
   justify-content: center;
   width: 75vw;
   max-width: 600px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .tierMain nav ul {
