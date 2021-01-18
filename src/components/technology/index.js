@@ -6,13 +6,14 @@ import styles from './index.module.css'
 export default function Technology() {
   return (
     <>
-      <div className='stripDark'>
+      <div className='stripLight'>
         <div className={styles.tierMain}>
-          <div className="backButton">
+
+          <div className={styles.goBack}>
             <Link href="/">
-              <a>
+              <a className={styles.buttonBack}>
                 <Image
-                  src="/back.svg"
+                  src="/back2.svg"
                   alt="voltar"
                   layout="intrinsic"
                   width={24}
@@ -20,6 +21,18 @@ export default function Technology() {
                 />
               </a>
             </Link>
+          </div>
+
+          <div>
+            <Image
+              src="/technology.png"
+              alt="foto rodney rinaldi"
+              layout="intrinsic"
+              width={1800}
+              height={703}
+            />
+            <h3>Tecnologia</h3>
+            <p>xxxx</p>
           </div>
         </div>
       </div>

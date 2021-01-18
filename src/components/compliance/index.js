@@ -8,9 +8,9 @@ export default function Compliance() {
     <>
       <div className='stripDark'>
         <div className={styles.tierMain}>
-          <div className="backButton">
+          <div className={styles.goBack}>
             <Link href="/">
-              <a>
+              <a className={styles.buttonBack}>
                 <Image
                   src="/back.svg"
                   alt="voltar"

@@ -1,14 +1,15 @@
 .tierMain {  
   height: 100vh;
+  width: 75vw;
   max-width: 1100px;
+  margin-top: -26px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative;
 
-  color: aliceblue;
+  color:darkslategrey;
 }
 
 .tierMain div {  
@@ -20,39 +21,53 @@
 
 .tierMain div h3 {  
   display: flex;
-  margin: 8px 0 5px;
+  margin: 20px 0 10px;
   font-weight: 500;
 }
 
 .tierMain div p {  
   display: flex;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   width: 100%;
-  text-align:left;
+  text-align:justify;
 }
 
-
-.backButton {
-  position: fixed;
-  top: -10px;
-  width: 35px;
-  z-index: 100;
-  left: 0pt;
-}
-.backButton:hover {
-  background: rgb(60, 94, 110);
+.goBack {
+  align-self: flex-start;
+  margin-left: 200px;
+  padding: 5px 8px;
 }
 
-
-
+.goBack:hover {
+  background: rgb(195, 204, 209);
+  border-radius: 5px;
+}
 
 /* ------------- */
 
-
-
-@media (max-width: 900px) {  
+@media (max-width: 900px) { 
+  .tierMain div h3 {  
+    display: flex;
+    margin: 8px 0 5px;
+    font-weight: 500;
+  } 
+  .goBack {
+    align-self: flex-start;
+    margin-left: 50px;
+    padding: 5px 8px;
+  }
 }
 
 @media (max-width: 1100px) {  
+  .tierMain div h3 {  
+    display: flex;
+    margin: 8px 0 5px;
+    font-weight: 500;
+  }
+  .goBack {
+    align-self: flex-start;
+    margin-left: 10px;
+    padding: 5px 8px;
+  }
 }
   
