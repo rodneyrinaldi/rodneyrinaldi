@@ -8,9 +8,10 @@ export default function Logo() {
     <>
       <div className='stripDark'>
         <div className={styles.tierMain}>
-          <div className="backButton">
+
+          <div className={styles.goBack}>
             <Link href="/">
-              <a>
+              <a className={styles.buttonBack}>
                 <Image
                   src="/back.svg"
                   alt="voltar"
@@ -21,13 +22,14 @@ export default function Logo() {
               </a>
             </Link>
           </div>
+
           <div>
             <Image
               src="/profile.png"
               alt="foto rodney rinaldi"
               layout="intrinsic"
-              width={144}
-              height={154}
+              width={105}
+              height={113}
             />
             <Image
               src="/rodneyrinaldi.svg"
