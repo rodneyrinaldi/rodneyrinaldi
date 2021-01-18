@@ -20,7 +20,7 @@ export default function Logo() {
           <ul>
             <li>
               <Link href="http://adv.rodneyrinaldi.com">
-                <a>
+                <a className={styles.navSites}>
                   adv
                   </a>
               </Link>
@@ -28,7 +28,7 @@ export default function Logo() {
             {' | '}
             <li>
               <Link href="http://adv.rodneyrinaldi.com">
-                <a>
+                <a className={styles.navSites}>
                   dev
                   </a>
               </Link>
@@ -36,7 +36,7 @@ export default function Logo() {
             {' | '}
             <li>
               <Link href="http://adv.rodneyrinaldi.com">
-                <a>
+                <a className={styles.navSites}>
                   dpo
                   </a>
               </Link>
