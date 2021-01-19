@@ -9,20 +9,6 @@ export default function Technology() {
       <div className='stripLight'>
         <div className={styles.tierMain}>
 
-          <div className={styles.goBack}>
-            <Link href="/">
-              <a className={styles.buttonBack}>
-                <Image
-                  src="/back2.svg"
-                  alt="voltar"
-                  layout="intrinsic"
-                  width={24}
-                  height={24}
-                />
-              </a>
-            </Link>
-          </div>
-
           <div>
             <Image
               src="/technology.png"
@@ -34,6 +20,12 @@ export default function Technology() {
             <h3>Tecnologia</h3>
             <p>xxxx</p>
           </div>
+
+          <Link href="/">
+            <a href="#" class={styles.myButton}>VOLTAR</a>
+          </Link>
+
+
         </div>
       </div>
     </>

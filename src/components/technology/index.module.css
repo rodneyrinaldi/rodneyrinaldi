@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content:flex-start;
 
   color:darkslategrey;
 }
@@ -32,17 +32,6 @@
   text-align:justify;
 }
 
-.goBack {
-  align-self: flex-start;
-  margin-left: 200px;
-  padding: 5px 8px;
-}
-
-.goBack:hover {
-  background: rgb(195, 204, 209);
-  border-radius: 5px;
-}
-
 /* ------------- */
 
 @media (max-width: 900px) { 
@@ -50,6 +39,7 @@
     display: flex;
     margin: 8px 0 5px;
     font-weight: 500;
+    width: 98vw;
   } 
   .goBack {
     align-self: flex-start;
@@ -63,6 +53,7 @@
     display: flex;
     margin: 8px 0 5px;
     font-weight: 500;
+    width: 95vw;
   }
   .goBack {
     align-self: flex-start;
@@ -71,3 +62,32 @@
   }
 }
   
+
+
+
+
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:12px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
