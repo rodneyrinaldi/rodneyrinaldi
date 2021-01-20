@@ -16,6 +16,8 @@ export default function Technology() {
             width={1800}
             height={703}
           />
+          <br /><br /><br /><br /><br /><br /><br />
+
           <h3>Tecnologia</h3>
           <p>xxxx</p>
 
