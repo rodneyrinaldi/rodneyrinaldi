@@ -1,8 +1,8 @@
 .tierMain {  
   height: 100vh;
   width: 75vw;
+  margin-top: 5vh;
   max-width: 1100px;
-  margin-top: -26px;
 
   display: flex;
   flex-direction: column;
@@ -10,13 +10,6 @@
   justify-content:flex-start;
 
   color:darkslategrey;
-}
-
-.tierMain div {  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .tierMain div h3 {  
@@ -34,26 +27,13 @@
 
 /* ------------- */
 
-@media (max-width: 900px) { 
-  .tierMain div h3 {  
-    display: flex;
-    margin: 8px 0 5px;
-    font-weight: 500;
-    width: 98vw;
-  } 
-  .goBack {
-    align-self: flex-start;
-    margin-left: 50px;
-    padding: 5px 8px;
-  }
-}
-
 @media (max-width: 1100px) {  
   .tierMain div h3 {  
     display: flex;
     margin: 8px 0 5px;
     font-weight: 500;
     width: 95vw;
+    margin-top: 0vh;
   }
   .goBack {
     align-self: flex-start;
