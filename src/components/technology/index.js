@@ -6,28 +6,39 @@ import styles from './index.module.css'
 export default function Technology() {
   return (
     <>
-      <div className='stripLight'>
-        <div className={styles.tierMain}>
-
+      <header className="stripDark">
+        <div className={styles.tierHeader}>
           <Image
-            src="/technology.png"
+            src="/rodneyrinaldi.svg"
             alt="foto rodney rinaldi"
             layout="intrinsic"
             width={1800}
             height={703}
           />
-          <br /><br /><br /><br /><br /><br /><br />
+        </div>
+      </header>
+
+      <main className='stripLight'>
+        <div className={styles.tierMain}>
 
           <h3>Tecnologia</h3>
           <p>xxxx</p>
 
-          <Link href="/">
-            <a href="#" class={styles.myButton}>VOLTAR</a>
+          <Image
+            src="/customer.svg"
+            alt="foto rodney rinaldi"
+            layout="intrinsic"
+            width={1800}
+            height={703}
+          />
+
+          <Link href='/'>
+            <a href='#' className='buttonBase colorDark'>VOLTAR</a>
           </Link>
 
 
         </div>
-      </div>
+      </main>
     </>
   )
 }

@@ -42,3 +42,59 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.colorDark {
+  color: #e6ecf0;
+  background: #283E4A;
+}
+
+.colorLight {
+  color: #283E4A;
+  background: #e6ecf0;
+}
+
+.buttonBase {
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	font-weight:600;
+	padding:10px 40px;
+	margin:20px 20px;
+	text-decoration:none;
+}
+.buttonBase:hover {
+	opacity: 0.8; 
+}
+
+
+
+
+
+
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:12px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+

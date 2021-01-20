@@ -1,5 +1,19 @@
+.tierHeader {  
+  height: 7vh;
+  width: 75vw;
+  max-width: 1100px;
+  padding: 1vh 0 1.4vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+
+  color:darkslategrey;
+}
+
 .tierMain {  
-  height: 100vh;
+  height: 93vh;
   width: 75vw;
   margin-top: 5vh;
   max-width: 1100px;
@@ -12,17 +26,15 @@
   color:darkslategrey;
 }
 
-.tierMain div h3 {  
+.tierMain h3 {  
   display: flex;
   margin: 20px 0 10px;
   font-weight: 500;
 }
 
-.tierMain div p {  
+.tierMain p {  
   display: flex;
   margin-bottom: 10px;
-  width: 100%;
-  text-align:justify;
 }
 
 
@@ -44,33 +56,3 @@
     max-width: 631px;  
   }
 }
-
-
-
-
-
-
-.myButton {
-	box-shadow: 0px 10px 14px -7px #276873;
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#599bb3;
-	border-radius:7px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:18px;
-	font-weight:bold;
-	padding:12px 32px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-
