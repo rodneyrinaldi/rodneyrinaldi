@@ -20,7 +20,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:flex-start;
 
   color:darkslategrey;
 }
@@ -34,7 +33,11 @@
 
 .tierMain p {  
   display: flex;
+  text-align: center;
   margin-bottom: 10px;
+  letter-spacing: 0.05rem; 
+  font-size: 1.4rem;
+  opacity: .8;
 }
 
 .tierArticles {  
@@ -53,11 +56,16 @@
 /*Tablet Query*/
 @media only screen and (min-width: 641px) and (max-width:768px) {
   .tierMain {  
-    width: 96vw;
+    width: 84vw;
     max-width: 631px;  
   }
   .tierMain h3 {  
     font-size: 1.6rem;
+  }
+  .tierMain p {  
+    letter-spacing: 0.05rem; 
+    font-size: 1.2rem;
+    opacity: .7;
   }
   .divImg {
     width: 60vw;
@@ -68,11 +76,16 @@
 /*Mobile Query*/
 @media only screen and (max-width:640px) {
   .tierMain {  
-    width: 96vw;
+    width: 90vw;
     max-width: 631px;  
   }
   .tierMain h3 {  
     font-size: 1.4rem;
+  }
+  .tierMain p {  
+    letter-spacing: 0.08rem; 
+    font-size: 1rem;
+    opacity: .7;
   }
   .divImg {
     display: block;
