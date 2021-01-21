@@ -22,7 +22,7 @@ export default function Technology() {
         <div className={styles.tierMain}>
 
           <h3>Foco no Cliente</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas aperiam qui neque. Ipsam tenetur, odio, excepturi voluptates quam ullam natus neque incidunt corporis iure deleniti aliquam aliquid minima voluptatum necessitatibus.</p>
+          <p>Desenhado para atendimento em grande escala, nos diferentes canais de interação, com visão única e 360 graus. Pode ser utilizado tanto para clientes quanto para colaboradores e representantes.</p>
 
           <div className={styles.tierArticles}>
             <div className={styles.divImg}>
