@@ -31,10 +31,13 @@
   margin: 0 15px;
 }
 
+.navSites {
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
 .navSites:hover {
   background: rgb(60, 94, 110);
-  padding-top: 3px 8px;
-  border-radius: 5px;
 }
 
 .tierMain nav ul li:hover {

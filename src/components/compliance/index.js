@@ -6,23 +6,32 @@ import styles from './index.module.css'
 export default function Compliance() {
   return (
     <>
-      <div className='stripDark'>
-        <div className={styles.tierMain}>
-          <div className={styles.goBack}>
-            <Link href="/">
-              <a className={styles.buttonBack}>
-                <Image
-                  src="/back.svg"
-                  alt="voltar"
-                  layout="intrinsic"
-                  width={24}
-                  height={24}
-                />
-              </a>
-            </Link>
-          </div>
+      <header className="stripDark">
+        <div className={styles.tierHeader}>
+          <Image
+            src="/rodneyrinaldi.svg"
+            alt="foto rodney rinaldi"
+            layout="intrinsic"
+            width={1800}
+            height={703}
+          />
         </div>
-      </div>
+      </header>
+
+      <main className='stripLight'>
+        <div className={styles.tierMain}>
+
+          <h3>Proteção de Dados</h3>
+          <p>xxxx</p>
+
+        </div>
+      </main>
+
+      <footer className='stripLight'>
+        <Link href='/'>
+          <a href='#' className='buttonBase colorDark'>VOLTAR</a>
+        </Link>
+      </footer>
     </>
   )
 }

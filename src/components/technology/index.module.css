@@ -1,15 +1,19 @@
 .tierHeader {  
+  width: 60vw;
+  max-width: 340px;
   height: 7vh;
-  width: 75vw;
-  max-width: 1100px;
-  padding: 1vh 0 1.4vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content:flex-start;
-}
+ }
 
-.tierMain {  
+ .tierHeader a {  
+  border-radius: 5px;
+  margin-top: -4vh;
+ }
+ .tierHeader a:hover {  
+ background: rgb(60, 94, 110);
+ }
+
+ .tierMain {  
   height: 100%;
   width: 75vw;
   max-width: 1100px;
@@ -25,7 +29,7 @@
   font-size: 1.6rem;
   letter-spacing: -.0rem; 
   color: #283E4A;
-  opacity: 0.8;
+  opacity: .9;
   margin-top: 20px;  
 }
 
@@ -37,7 +41,7 @@
   font-size: 1.4rem;
   letter-spacing: -.0rem; 
   color: #283E4A;
-  opacity: 0.6;
+  opacity: .8;
   margin-top: 10px;
 }
 
@@ -52,10 +56,40 @@
   width: 40vw;
   max-width: 1100px;
 }
+ 
+.tierFooter nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+.tierFooter nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tierFooter nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2vh 2vw;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tierFooter nav ul li:hover {
+  background: rgb(60, 94, 110);
+}
 
 
 /*Tablet Query*/
 @media only screen and (min-width: 641px) and (max-width:768px) {
+  .tierHeader {   
+    padding-top: 1vh;
+  }
   .tierMain {  
     width: 84vw;
     max-width: 631px;  
@@ -76,6 +110,9 @@
 
 /*Mobile Query*/
 @media only screen and (max-width:640px) {
+  .tierHeader {   
+    padding-top: .5vh;
+  }
   .tierMain {  
     width: 90vw;
     max-width: 631px;  
@@ -83,10 +120,12 @@
   .tierMain h3 { 
     letter-spacing: 0rem; 
     font-size: 1.3rem;
+    opacity: 1;
   }
   .tierMain p { 
     letter-spacing: 0.05rem; 
     font-size: 1.1rem;
+    opacity: .9;
   }
   .divImg {
     display: block;

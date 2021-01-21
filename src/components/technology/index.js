@@ -8,13 +8,17 @@ export default function Technology() {
     <>
       <header className="stripDark">
         <div className={styles.tierHeader}>
-          <Image
-            src="/rodneyrinaldi.svg"
-            alt="foto rodney rinaldi"
-            layout="intrinsic"
-            width={1800}
-            height={703}
-          />
+          <Link href="/">
+            <a>
+              <Image
+                src="/rodneyrinaldi.svg"
+                alt="foto rodney rinaldi"
+                layout="intrinsic"
+                width={1800}
+                height={703}
+              />
+            </a>
+          </Link>
         </div>
       </header>
 
@@ -22,7 +26,7 @@ export default function Technology() {
         <div className={styles.tierMain}>
 
           <h3>Foco no Cliente</h3>
-          <p>Desenhado para atendimento em grande escala, nos diferentes canais de interação, com visão única e 360 graus. Pode ser utilizado tanto para clientes quanto para colaboradores e representantes.</p>
+          <p></p>
 
           <div className={styles.tierArticles}>
             <div className={styles.divImg}>
@@ -33,6 +37,7 @@ export default function Technology() {
                 width={1800}
                 height={703}
               />
+              <spam>xxx</spam>
             </div>
             <div className={styles.divImg}>
               <Image
@@ -42,11 +47,12 @@ export default function Technology() {
                 width={1800}
                 height={703}
               />
+              <spam>xxx</spam>
             </div>
           </div>
 
-          <h3>Foco no Cliente</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit odit, voluptas eaque perferendis incidunt nemo pariatur. Totam earum fuga beatae! Aperiam esse dolore cumque quas voluptatum dolor omnis quos consequatur.</p>
+          <h3>Custo Benefício</h3>
+          <p></p>
 
           <div className={styles.divImg}>
             <Image
@@ -61,10 +67,55 @@ export default function Technology() {
         </div>
       </main>
 
-      <footer className='stripLight'>
-        <Link href='/'>
-          <a href='#' className='buttonBase colorDark'>VOLTAR</a>
-        </Link>
+      <footer className='stripDark'>
+        <div className={styles.tierFooter}>
+          <nav>
+            <ul>
+              <li>
+                <Link href="/advocacy">
+                  <a>
+                    <Image
+                      src="/adv2.svg"
+                      alt="rodney rinaldi adv"
+                      layout="intrinsic"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
+                </Link>
+            Advocacia
+          </li>
+              <li>
+                <Link href="/technology">
+                  <a>
+                    <Image
+                      src="/dev2.svg"
+                      alt="rodney rinaldi dev"
+                      layout="intrinsic"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
+                </Link>
+            Tecnologia
+          </li>
+              <li>
+                <Link href="/compliance">
+                  <a>
+                    <Image
+                      src="/dpo2.svg"
+                      alt="rodney rinaldi dpo"
+                      layout="intrinsic"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
+                </Link>
+            Privacidade
+          </li>
+            </ul>
+          </nav>
+        </div>
       </footer>
     </>
   )

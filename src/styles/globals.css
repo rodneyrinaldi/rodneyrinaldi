@@ -5,35 +5,13 @@
 }
 
 html,
-body {
-  /* 
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
-  background: #283E4A;
-  color:darkslategrey; 
-  */
-
-
-  /* 
-  font-family: 'Raleway', 'Arial', 'sans-serif';
-  text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
-  color: rgba(34, 34, 34, 0.85);
-  line-height: 1.25;
-  letter-spacing: -.1rem; 
-  font-size: 1.4rem;
-  font-weight: 300;
-  */
-
-
-  
+body {  
   font-family: 'Raleway', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   background: #283E4A;
   font-weight: 200;
+  height: 100%;
 }
 
 a {
