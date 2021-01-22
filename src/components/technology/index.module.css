@@ -1,5 +1,5 @@
 .tierHeader {  
-  width: 60vw;
+  width: 50vw;
   max-width: 340px;
   height: 7vh;
   display: flex;
@@ -20,13 +20,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2vh;
 }
 
 .tierMain h3 {  
   display: flex;
   line-height: 30px;
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   letter-spacing: -.0rem; 
   color: #283E4A;
   opacity: .9;
@@ -38,7 +39,7 @@
   text-align: center;  
   line-height: 26px;
   font-weight: 100;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   letter-spacing: -.0rem; 
   color: #283E4A;
   opacity: .8;
@@ -90,13 +91,16 @@
   .tierHeader {   
     padding-top: 1vh;
   }
+  .tierHeader a {  
+   margin-top: -3vh;
+  }
   .tierMain {  
     width: 84vw;
     max-width: 631px;  
   }
   .tierMain h3 {  
     letter-spacing: 0rem; 
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
   .tierMain p {  
     letter-spacing: 0.05rem; 
@@ -113,13 +117,16 @@
   .tierHeader {   
     padding-top: .5vh;
   }
+  .tierHeader a {  
+   margin-top: -3vh;
+  }
   .tierMain {  
     width: 90vw;
     max-width: 631px;  
   }
   .tierMain h3 { 
     letter-spacing: 0rem; 
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     opacity: 1;
   }
   .tierMain p { 

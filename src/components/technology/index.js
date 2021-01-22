@@ -26,42 +26,48 @@ export default function Technology() {
         <div className={styles.tierMain}>
 
           <h3>Foco no Cliente</h3>
-          <p></p>
+          <p>
+            Estratégia de posicionamento do cliente em primeiro plano,
+            promovendo a experiência de uma jornada memorável.
+          </p>
 
           <div className={styles.tierArticles}>
             <div className={styles.divImg}>
               <Image
-                src="/dev.svg"
+                src="/techiconsfocus.png"
                 alt="customer centricity"
                 layout="intrinsic"
-                width={1800}
-                height={703}
+                width={200}
+                height={200}
               />
               <spam>xxx</spam>
             </div>
             <div className={styles.divImg}>
-              <Image
-                src="/dev.svg"
-                alt="customer centricity"
-                layout="intrinsic"
-                width={1800}
-                height={703}
-              />
-              <spam>xxx</spam>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia unde amet beatae laborum ipsa obcaecati nam deleniti quaerat rerum ab, ea accusamus, a earum. Sunt voluptatem numquam sequi quam pariatur!</p>
             </div>
           </div>
 
           <h3>Custo Benefício</h3>
-          <p></p>
+          <p>
+            Estratégia de avaliação de um projeto quanto a sua aplicabilidade,
+            demonstrando a viabilidade ou não a partir do estudo dos fatores positivos e negativos,
+            presentes e futuros.
+          </p>
 
-          <div className={styles.divImg}>
-            <Image
-              src="/technology.png"
-              alt="customer centricity"
-              layout="intrinsic"
-              width={1800}
-              height={703}
-            />
+          <div className={styles.tierArticles}>
+            <div className={styles.divImg}>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia unde amet beatae laborum ipsa obcaecati nam deleniti quaerat rerum ab, ea accusamus, a earum. Sunt voluptatem numquam sequi quam pariatur!</p>
+            </div>
+            <div className={styles.divImg}>
+              <Image
+                src="/techiconscost.png"
+                alt="customer centricity"
+                layout="intrinsic"
+                width={200}
+                height={200}
+              />
+              <spam>xxx</spam>
+            </div>
           </div>
 
         </div>
