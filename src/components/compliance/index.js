@@ -27,9 +27,66 @@ export default function Compliance() {
         </div>
       </main>
 
-      <footer className='stripLight'>
-        <Link href='/'>
-          <a href='#' className='buttonBase colorDark'>VOLTAR</a>
+      <footer className='stripDark'>
+        <div className={styles.tierFooter}>
+          <nav>
+            <ul>
+              <li>
+                <Link href="/advocacy">
+                  <a>
+                    <Image
+                      src="/adv2.svg"
+                      alt="rodney rinaldi adv"
+                      layout="intrinsic"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
+                </Link>
+                Advocacia
+              </li>
+              <li>
+                <Link href="/technology">
+                  <a>
+                    <Image
+                      src="/dev2.svg"
+                      alt="rodney rinaldi dev"
+                      layout="intrinsic"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
+                </Link>
+                  Tecnologia
+              </li>
+              <li>
+                <Link href="/compliance">
+                  <a>
+                    <Image
+                      src="/dpo2.svg"
+                      alt="rodney rinaldi dpo"
+                      layout="intrinsic"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
+                </Link>
+               Privacidade
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <Link href="/">
+          <a className={styles.goBack}>
+            <Image
+              src="/back.svg"
+              alt="voltar"
+              layout="intrinsic"
+              width={14}
+              height={14}
+            />
+            <spam>VOLTAR</spam>
+          </a>
         </Link>
       </footer>
     </>

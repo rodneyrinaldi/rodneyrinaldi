@@ -9,20 +9,6 @@ export default function Logo() {
       <div className='stripDark'>
         <div className={styles.tierMain}>
 
-          <div className={styles.goBack}>
-            <Link href="/">
-              <a className={styles.buttonBack}>
-                <Image
-                  src="/back.svg"
-                  alt="voltar"
-                  layout="intrinsic"
-                  width={24}
-                  height={24}
-                />
-              </a>
-            </Link>
-          </div>
-
           <div>
             <Image
               src="/profile.png"
@@ -45,6 +31,20 @@ export default function Logo() {
             <p>Oracle, Sqlserver, Mongodb, Postgres, Mysql e Redis</p>
             <p>Inglês e Espanhol avançados</p>
           </div>
+
+          <Link href="/">
+            <a className={styles.goBack}>
+              <Image
+                src="/back.svg"
+                alt="voltar"
+                layout="intrinsic"
+                width={14}
+                height={14}
+              />
+              <spam>VOLTAR</spam>
+            </a>
+          </Link>
+
         </div>
       </div>
     </>

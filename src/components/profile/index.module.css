@@ -33,14 +33,18 @@
 }
 
 .goBack {
-  align-self: flex-start;
-  margin-left: 200px;
-  padding: 5px 8px;
+  align-self:center;
+  padding: 8px 14px 6px;
+  margin-top: 4vh;
 }
-
 .goBack:hover {
   background: rgb(60, 94, 110);
   border-radius: 5px;
+}
+
+.goBack spam {
+  margin-left: 1vw;
+  letter-spacing: 0.1rem; 
 }
 
 /* ------------- */

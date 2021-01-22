@@ -87,8 +87,8 @@ export default function Technology() {
                     />
                   </a>
                 </Link>
-            Advocacia
-          </li>
+                Advocacia
+              </li>
               <li>
                 <Link href="/technology">
                   <a>
@@ -101,8 +101,8 @@ export default function Technology() {
                     />
                   </a>
                 </Link>
-            Tecnologia
-          </li>
+                  Tecnologia
+              </li>
               <li>
                 <Link href="/compliance">
                   <a>
@@ -115,11 +115,23 @@ export default function Technology() {
                     />
                   </a>
                 </Link>
-            Privacidade
-          </li>
+               Privacidade
+              </li>
             </ul>
           </nav>
         </div>
+        <Link href="/">
+          <a className={styles.goBack}>
+            <Image
+              src="/back.svg"
+              alt="voltar"
+              layout="intrinsic"
+              width={14}
+              height={14}
+            />
+            <spam>VOLTAR</spam>
+          </a>
+        </Link>
       </footer>
     </>
   )
