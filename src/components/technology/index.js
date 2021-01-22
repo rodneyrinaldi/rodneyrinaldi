@@ -25,14 +25,14 @@ export default function Technology() {
       <main className='stripLight'>
         <div className={styles.tierMain}>
 
-          <h3>Foco no Cliente</h3>
-          <p>
+          <h2>Foco no Cliente</h2>
+          <h3>
             Estratégia de posicionamento do cliente em primeiro plano,
             promovendo a experiência de uma jornada memorável.
-          </p>
+          </h3>
 
           <div className={styles.tierArticles}>
-            <div className={styles.divImg}>
+            <div>
               <Image
                 src="/techiconsfocus.png"
                 alt="customer centricity"
@@ -40,25 +40,24 @@ export default function Technology() {
                 width={200}
                 height={200}
               />
-              <spam>xxx</spam>
             </div>
-            <div className={styles.divImg}>
+            <div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia unde amet beatae laborum ipsa obcaecati nam deleniti quaerat rerum ab, ea accusamus, a earum. Sunt voluptatem numquam sequi quam pariatur!</p>
             </div>
           </div>
 
-          <h3>Custo Benefício</h3>
-          <p>
+          <h2>Custo Benefício</h2>
+          <h3>
             Estratégia de avaliação de um projeto quanto a sua aplicabilidade,
             demonstrando a viabilidade ou não a partir do estudo dos fatores positivos e negativos,
             presentes e futuros.
-          </p>
+          </h3>
 
           <div className={styles.tierArticles}>
-            <div className={styles.divImg}>
+            <div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia unde amet beatae laborum ipsa obcaecati nam deleniti quaerat rerum ab, ea accusamus, a earum. Sunt voluptatem numquam sequi quam pariatur!</p>
             </div>
-            <div className={styles.divImg}>
+            <div>
               <Image
                 src="/techiconscost.png"
                 alt="customer centricity"
@@ -66,7 +65,6 @@ export default function Technology() {
                 width={200}
                 height={200}
               />
-              <spam>xxx</spam>
             </div>
           </div>
 
