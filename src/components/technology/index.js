@@ -32,7 +32,7 @@ export default function Technology() {
           </h3>
 
           <div className={styles.tierArticles}>
-            <div>
+            <div className={styles.imgArticle}>
               <Image
                 src="/techiconsfocus.png"
                 alt="customer centricity"
@@ -54,10 +54,7 @@ export default function Technology() {
           </h3>
 
           <div className={styles.tierArticles}>
-            <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia unde amet beatae laborum ipsa obcaecati nam deleniti quaerat rerum ab, ea accusamus, a earum. Sunt voluptatem numquam sequi quam pariatur!</p>
-            </div>
-            <div>
+            <div className={styles.imgArticle}>
               <Image
                 src="/techiconscost.png"
                 alt="customer centricity"
@@ -65,6 +62,9 @@ export default function Technology() {
                 width={200}
                 height={200}
               />
+            </div>
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia unde amet beatae laborum ipsa obcaecati nam deleniti quaerat rerum ab, ea accusamus, a earum. Sunt voluptatem numquam sequi quam pariatur!</p>
             </div>
           </div>
 
