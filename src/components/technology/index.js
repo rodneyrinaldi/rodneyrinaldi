@@ -27,8 +27,7 @@ export default function Technology() {
 
           <h2>Foco no Cliente</h2>
           <h3>
-            Estratégia de posicionamento do cliente em primeiro plano,
-            promovendo a experiência de uma jornada memorável.
+            Estratégia de posicionamento do cliente em primeiro plano, promovendo a experiência de uma jornada memorável.
           </h3>
 
           <div className={styles.tierArticles}>
@@ -42,7 +41,18 @@ export default function Technology() {
               />
             </div>
             <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia unde amet beatae laborum ipsa obcaecati nam deleniti quaerat rerum ab, ea accusamus, a earum. Sunt voluptatem numquam sequi quam pariatur!</p>
+              <p>
+                Expertise no atendimento a clientes e consumidores fundada na experiência cumulada desde os anos 90,
+                e tendo acompanhado a evolução do mercado desde a entrada do Código de Defesa do Consumidor,
+                desenvolvimento de soluções Business to Business, Business to Consumer, Data Warehouse e Business Intelligence.
+              </p>
+              <p>
+                Desenhe a solução mais adequada as suas necessidades,
+                para isto utilize as tecnologias mais apropriadas,
+                tenha tranquilidade durante a execução do projeto,
+                participe ativamente do desenvolvimento gerenciado por metodologias ágeis.
+
+              </p>
             </div>
           </div>
 
@@ -54,6 +64,10 @@ export default function Technology() {
           </h3>
 
           <div className={styles.tierArticles}>
+            <div className={styles.imgInvert}>
+              <p>xxx</p>
+              <p>xxx</p>
+            </div>
             <div className={styles.imgArticle}>
               <Image
                 src="/techiconscost.png"
@@ -62,9 +76,6 @@ export default function Technology() {
                 width={200}
                 height={200}
               />
-            </div>
-            <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia unde amet beatae laborum ipsa obcaecati nam deleniti quaerat rerum ab, ea accusamus, a earum. Sunt voluptatem numquam sequi quam pariatur!</p>
             </div>
           </div>
 

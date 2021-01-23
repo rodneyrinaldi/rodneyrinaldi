@@ -28,8 +28,17 @@ export default function Contact() {
       </main>
 
       <footer className='stripLight'>
-        <Link href='/'>
-          <a href='#' className='buttonBase colorDark'>VOLTAR</a>
+        <Link href="/">
+          <a className={styles.goBack}>
+            <Image
+              src="/back.svg"
+              alt="voltar"
+              layout="intrinsic"
+              width={14}
+              height={14}
+            />
+            <spam>VOLTAR</spam>
+          </a>
         </Link>
       </footer>
     </>

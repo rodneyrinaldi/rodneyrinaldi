@@ -43,7 +43,8 @@
   letter-spacing: -.0rem; 
   color: #283E4A;
   opacity: .9;
-  margin-top: 14px;  
+  margin-top: 14px; 
+  margin-bottom: 16px; 
 }
 
 .tierMain p {  
@@ -65,18 +66,6 @@
   flex-wrap: nowrap;  
   text-align: center;
 }
-.tierArticles :nth-child(0) { 
-  order: 0; 
-}
-.tierArticles :nth-child(1) { 
-  order: 1; 
-}
-.tierArticles :nth-child(2) { 
-  order: 2; 
-}
-.tierArticles :nth-child(3) { 
-  order: 3; 
-}
 
 .tierArticles div {
   flex: 1 300px;
@@ -84,7 +73,7 @@
 }
 
 .tierArticles div p {
-  margin-top: 5vh;
+  margin-top: 2vh;  
 }
 
 .imgArticle {
@@ -194,23 +183,14 @@
     flex-wrap: wrap;  
     margin-bottom: 5vh;
   }
-  .tierArticles :nth-child(0) { 
-    order: 0; 
-  }
-  .tierArticles :nth-child(1) { 
-    order: 1; 
-  }
-  .tierArticles :nth-child(2) { 
-    order: 3; 
-  }
-  .tierArticles :nth-child(3) { 
-    order: 2; 
-  }
   .tierArticles div p {
-    margin-top: 0vh;
+    margin-top: 3vh;
   }
   .imgArticle {
     max-width: 200px;
     margin: 3vh 0 0;
+  }
+  .imgInvert {
+    order: 1;
   }
 }

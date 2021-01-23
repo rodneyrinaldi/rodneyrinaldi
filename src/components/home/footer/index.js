@@ -39,7 +39,7 @@ export default function Nav() {
               <Link href="/profile">
                 <a>
                   <Image
-                    src="/rr-body.png"
+                    src="/profile.svg"
                     alt="rodney rinaldi dpo"
                     layout="intrinsic"
                     width={40}

@@ -1,6 +1,6 @@
 .tierMain {  
   height: 100vh;
-  width: 75vw;
+  width: 60vw;
   max-width: 1100px;
   margin-top: -26px;
 
@@ -22,14 +22,13 @@
 .tierMain div h3 {  
   display: flex;
   margin: 20px 0 10px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .tierMain div p {  
   display: flex;
-  margin-bottom: 10px;
-  width: 100%;
-  text-align:justify;
+  margin: 4px 0px 10px;
+  text-align: center;
 }
 
 .goBack {
@@ -49,29 +48,21 @@
 
 /* ------------- */
 
-@media (max-width: 900px) { 
-  .tierMain div h3 {  
-    display: flex;
-    margin: 8px 0 5px;
-    font-weight: 500;
-  } 
-  .goBack {
-    align-self: flex-start;
-    margin-left: 50px;
-    padding: 5px 8px;
-  }
+@media only screen and (min-width: 641px) and (max-width:768px) {
 }
 
-@media (max-width: 1100px) {  
+@media only screen and (max-width:640px) {
+  .tierMain {  
+    height: 100vh;
+    width: 90vw;
+    max-width: 600px;
+    margin-top: 0px;  
+  } 
   .tierMain div h3 {  
-    display: flex;
-    margin: 8px 0 5px;
-    font-weight: 500;
+    margin: 20px 0 10px;
   }
   .goBack {
-    align-self: flex-start;
-    margin-left: 10px;
-    padding: 5px 8px;
+    align-self: center;
   }
 }
   
