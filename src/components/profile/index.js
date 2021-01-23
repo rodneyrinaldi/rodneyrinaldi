@@ -25,10 +25,10 @@ export default function Logo() {
               height={77}
             />
             <h3>adv & dev</h3>
-            <p>Formação em Direito e Tecnologia com pós-graduações em Direito, Negócios e Comunicação</p>
-            <p>Direito Civil e Processual, Imobiliário, Empresarial, Trabalhista, Digital e Tânsito</p>
-            <p>Ecossistemas Javascript e Microsoft; SAP CRM, Dynamics CRM e SalesForce</p>
-            <p>Oracle, Sqlserver, Mongodb, Postgres, Mysql e Redis</p>
+            <p>Direito Civil e Processual, Imobiliário, Empresarial, Trabalhista, Digital e Trânsito</p>
+            <p>Processamento de Dados e Engenharia Mecânica, Pós em Projetos e MBA em Negócios</p>
+            <p>Desenvolvimento Javascript e .NET; SAP CRM, Dynamics CRM e SalesForce</p>
+            <p>Databases Oracle, Sqlserver, Mongodb, Postgres, Mysql e Redis</p>
             <p>Inglês e Espanhol avançados</p>
           </div>
 
