@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import styles from './index.module.css'
 
-export default function Logo() {
+export default function Header() {
   return (
     <div className='stripDark'>
       <div className={styles.tierMain}>

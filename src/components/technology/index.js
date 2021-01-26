@@ -8,7 +8,7 @@ export default function Technology() {
     <>
       <header className="stripDark">
         <div className={styles.tierHeader}>
-          <Link href="/">
+          <Link href="htpps://dev.rodneyrinaldi.com">
             <a>
               <Image
                 src="/rodneyrinaldi.svg"
@@ -39,6 +39,11 @@ export default function Technology() {
                 width={200}
                 height={200}
               />
+              <Link href="htpps://dev.rodneyrinaldi.com">
+                <a className={styles.goForward}>
+                  <spam>SAIBA MAIS</spam>
+                </a>
+              </Link>
             </div>
             <div>
               <p>
@@ -65,8 +70,18 @@ export default function Technology() {
 
           <div className={styles.tierArticles}>
             <div className={styles.imgInvert}>
-              <p>xxx</p>
-              <p>xxx</p>
+              <p>
+                Expertise no atendimento a clientes e consumidores fundada na experiência cumulada desde os anos 90,
+                e tendo acompanhado a evolução do mercado desde a entrada do Código de Defesa do Consumidor,
+                desenvolvimento de soluções Business to Business, Business to Consumer, Data Warehouse e Business Intelligence.
+              </p>
+              <p>
+                Desenhe a solução mais adequada as suas necessidades,
+                para isto utilize as tecnologias mais apropriadas,
+                tenha tranquilidade durante a execução do projeto,
+                participe ativamente do desenvolvimento gerenciado por metodologias ágeis.
+
+              </p>
             </div>
             <div className={styles.imgArticle}>
               <Image
@@ -76,6 +91,11 @@ export default function Technology() {
                 width={200}
                 height={200}
               />
+              <Link href="htpps://dev.rodneyrinaldi.com">
+                <a className={styles.goForward}>
+                  <spam>SAIBA MAIS</spam>
+                </a>
+              </Link>
             </div>
           </div>
 

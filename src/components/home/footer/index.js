@@ -13,8 +13,8 @@ export default function Nav() {
               <Link href="http://linkedin.com/in/rodneyrinaldi">
                 <a>
                   <Image
-                    src="/linkedin.svg"
-                    alt="linkedin rodney rinaldi"
+                    src="/github.svg"
+                    alt="github rodney rinaldi"
                     layout="intrinsic"
                     width={28}
                     height={28}
@@ -26,8 +26,8 @@ export default function Nav() {
               <Link href="http://github.com/rodneyrinaldi">
                 <a>
                   <Image
-                    src="/github.svg"
-                    alt="github rodney rinaldi"
+                    src="/linkedin.svg"
+                    alt="linkedin rodney rinaldi"
                     layout="intrinsic"
                     width={28}
                     height={28}
