@@ -1,6 +1,6 @@
-import Link from 'next/link'
 import Image from 'next/image'
 
+import Link from '../../components/utils/link'
 import styles from './index.module.css'
 
 export default function Contact() {
@@ -22,23 +22,19 @@ export default function Contact() {
         <div className={styles.tierMain}>
 
           <h3>Contato</h3>
-          <p>xxxx</p>
+
+
+
+
 
         </div>
       </main>
 
-      <footer className='stripLight'>
-        <Link href="/">
-          <a className={styles.goBack}>
-            <Image
-              src="/back.svg"
-              alt="voltar"
-              layout="intrinsic"
-              width={14}
-              height={14}
-            />
-            <spam>VOLTAR</spam>
-          </a>
+      <footer className='stripDark'>
+        <div className={styles.tierFooter}>
+        </div>
+        <Link href='#'>
+          VOLTAR
         </Link>
       </footer>
     </>

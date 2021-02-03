@@ -1,0 +1,15 @@
+.goBack {
+  margin-top: 4vh;
+  align-self:center;
+  padding: 8px 14px 6px;
+}
+.goBack:hover {
+  background: rgb(60, 94, 110);
+  border-radius: 5px;
+}
+
+.goBack spam {
+  margin-left: 1vw;
+  letter-spacing: 0.1rem; 
+  font-weight: 600;
+}
