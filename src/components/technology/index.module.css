@@ -1,13 +1,10 @@
 .tierHeader {  
-  width: 50vw;
-  max-width: 340px;
-  height: 7vh;
   display: flex;
+  padding: 1vw 10vw;
  }
 
  .tierHeader a {  
   border-radius: 5px;
-  margin-top: -4vh;
  }
  .tierHeader a:hover {  
   background: rgb(60, 94, 110);
@@ -74,16 +71,12 @@
 }
 
 .tierArticles div p {
-  margin-top: 2vh;  
   margin-top: 3vh;
 }
 
 .imgArticle {
   max-width: 200px;
   margin: 0 0 0;
-}
- 
-.tierFooter {
 }
  
 .tierFooter nav {
@@ -124,7 +117,7 @@
   background: rgb(88, 128, 146);
 }
 .goForward spam {
-  margin-left: 1vw;
+  margin: 1vw;
   letter-spacing: 0.06rem; 
   font-weight: 600;
 }
@@ -148,38 +141,12 @@
 
 /*Tablet Query*/
 @media only screen and (min-width: 641px) and (max-width:768px) {
-  .tierHeader {   
-    padding-top: 1vh;
-  }
-  .tierHeader a {  
-   margin-top: -3vh;
-  }
-  .tierMain {  
-    width: 84vw;
-    max-width: 631px;  
-  }
-  .tierMain h2 {  
-    letter-spacing: 0rem; 
-    font-size: 1.7rem;
-  }
-  .tierMain h3 {  
-    letter-spacing: 0rem; 
-    font-size: 1.5rem;
-  }
-  .tierMain p {  
-    letter-spacing: 0.05rem; 
-    font-size: 1.2rem;
-    opacity: 1;
-  }
 }
 
 /*Mobile Query*/
 @media only screen and (max-width:640px) {
   .tierHeader {   
-    padding-top: .5vh;
-  }
-  .tierHeader a {  
-   margin-top: -3vh;
+    padding: 2vw 20vw;
   }
   .tierMain {  
     width: 90vw;

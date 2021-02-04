@@ -27,7 +27,7 @@ export default function Header() {
             </li>
             {' | '}
             <li>
-              <Link href="http://adv.rodneyrinaldi.com">
+              <Link href="http://dev.rodneyrinaldi.com">
                 <a className={styles.navSites}>
                   dev
                   </a>
@@ -35,7 +35,7 @@ export default function Header() {
             </li>
             {' | '}
             <li>
-              <Link href="http://adv.rodneyrinaldi.com">
+              <Link href="http://dpo.rodneyrinaldi.com">
                 <a className={styles.navSites}>
                   dpo
                   </a>

@@ -8,14 +8,14 @@ export default function Technology() {
     <>
       <header className="stripDark">
         <div className={styles.tierHeader}>
-          <Link href="htpps://dev.rodneyrinaldi.com">
+          <Link href="/">
             <a>
               <Image
                 src="/rodneyrinaldi.svg"
                 alt="foto rodney rinaldi"
                 layout="intrinsic"
-                width={1800}
-                height={703}
+                width={300}
+                height={50}
               />
             </a>
           </Link>
@@ -39,11 +39,6 @@ export default function Technology() {
                 width={200}
                 height={200}
               />
-              <Link href="htpps://dev.rodneyrinaldi.com">
-                <a className={styles.goForward}>
-                  <spam>SAIBA MAIS</spam>
-                </a>
-              </Link>
             </div>
             <div>
               <p>
@@ -56,8 +51,13 @@ export default function Technology() {
                 para isto utilize as tecnologias mais apropriadas,
                 tenha tranquilidade durante a execução do projeto,
                 participe ativamente do desenvolvimento gerenciado por metodologias ágeis.
-
               </p>
+              <p> </p>
+              <Link href="htpps://dev.rodneyrinaldi.com">
+                <a className={styles.goForward}>
+                  <spam>SAIBA MAIS</spam>
+                </a>
+              </Link>
             </div>
           </div>
 
@@ -80,8 +80,13 @@ export default function Technology() {
                 para isto utilize as tecnologias mais apropriadas,
                 tenha tranquilidade durante a execução do projeto,
                 participe ativamente do desenvolvimento gerenciado por metodologias ágeis.
-
               </p>
+              <p> </p>
+              <Link href="htpps://dev.rodneyrinaldi.com">
+                <a className={styles.goForward}>
+                  <spam>SAIBA MAIS</spam>
+                </a>
+              </Link>
             </div>
             <div className={styles.imgArticle}>
               <Image
@@ -91,11 +96,6 @@ export default function Technology() {
                 width={200}
                 height={200}
               />
-              <Link href="htpps://dev.rodneyrinaldi.com">
-                <a className={styles.goForward}>
-                  <spam>SAIBA MAIS</spam>
-                </a>
-              </Link>
             </div>
           </div>
 
@@ -163,6 +163,7 @@ export default function Technology() {
             <spam>VOLTAR</spam>
           </a>
         </Link>
+        <br />
       </footer>
     </>
   )
