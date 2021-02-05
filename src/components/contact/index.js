@@ -47,11 +47,11 @@ export default function Contact() {
                 <label htmlFor="contactEmail">Email</label>
                 <input type="text" id="contactEmail" />
                 <label htmlFor="contactMessage">Mensagem</label>
-                <input type="text" id="contactMessage" />
+                <textarea id="contactMessage" />
                 <div>
                   <Link href="htpps://dev.rodneyrinaldi.com">
                     <a className={styles.goForward}>
-                      <spam>ENVIAR</spam>
+                      <span>ENVIAR</span>
                     </a>
                   </Link>
                 </div>
@@ -63,7 +63,54 @@ export default function Contact() {
       </main>
 
       <footer className='stripDark'>
-        <br />
+        <div className={styles.tierFooter}>
+          <nav>
+            <ul>
+              <li>
+                <Link href="/advocacy">
+                  <a>
+                    <Image
+                      src="/adv2.svg"
+                      alt="rodney rinaldi adv"
+                      layout="intrinsic"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
+                </Link>
+                Advocacia
+              </li>
+              <li>
+                <Link href="/technology">
+                  <a>
+                    <Image
+                      src="/dev2.svg"
+                      alt="rodney rinaldi dev"
+                      layout="intrinsic"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
+                </Link>
+                  Tecnologia
+              </li>
+              <li>
+                <Link href="/compliance">
+                  <a>
+                    <Image
+                      src="/dpo2.svg"
+                      alt="rodney rinaldi dpo"
+                      layout="intrinsic"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
+                </Link>
+               Privacidade
+              </li>
+            </ul>
+          </nav>
+        </div>
         <Link href="/">
           <a className={styles.goBack}>
             <Image
@@ -73,11 +120,12 @@ export default function Contact() {
               width={14}
               height={14}
             />
-            <spam>VOLTAR</spam>
+            <span>VOLTAR</span>
           </a>
         </Link>
         <br />
       </footer>
+
     </>
   )
 }

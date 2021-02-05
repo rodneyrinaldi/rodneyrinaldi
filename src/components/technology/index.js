@@ -55,7 +55,7 @@ export default function Technology() {
               <p> </p>
               <Link href="htpps://dev.rodneyrinaldi.com">
                 <a className={styles.goForward}>
-                  <spam>SAIBA MAIS</spam>
+                  <span>SAIBA MAIS</span>
                 </a>
               </Link>
             </div>
@@ -84,7 +84,7 @@ export default function Technology() {
               <p> </p>
               <Link href="htpps://dev.rodneyrinaldi.com">
                 <a className={styles.goForward}>
-                  <spam>SAIBA MAIS</spam>
+                  <span>SAIBA MAIS</span>
                 </a>
               </Link>
             </div>
@@ -160,7 +160,7 @@ export default function Technology() {
               width={14}
               height={14}
             />
-            <spam>VOLTAR</spam>
+            <span>VOLTAR</span>
           </a>
         </Link>
         <br />

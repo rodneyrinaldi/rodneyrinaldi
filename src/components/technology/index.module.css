@@ -116,7 +116,7 @@
 .goForward:hover {
   background: rgb(88, 128, 146);
 }
-.goForward spam {
+.goForward span {
   margin: 1vw;
   letter-spacing: 0.06rem; 
   font-weight: 600;
@@ -131,7 +131,7 @@
   border-radius: 5px;
 }
 
-.goBack spam {
+.goBack span {
   margin-left: 1vw;
   letter-spacing: 0.1rem; 
   font-weight: 600;

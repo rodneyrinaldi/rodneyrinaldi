@@ -85,7 +85,7 @@ export default function Compliance() {
               width={14}
               height={14}
             />
-            <spam>VOLTAR</spam>
+            <span>VOLTAR</span>
           </a>
         </Link>
       </footer>

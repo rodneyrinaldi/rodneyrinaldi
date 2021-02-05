@@ -75,8 +75,13 @@
 }
 
 .tierArticles div form label {
-  display: flex;
-  line-height: 28px;
+  display: flex; 
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: -.0rem; 
+  color: #283E4A;
+  opacity: .8;
 }
 
 .tierArticles div form input {
@@ -85,6 +90,32 @@
   width: 26vw;
   padding: 2px 5px;
   margin-bottom: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: -.0rem; 
+  color: #283E4A;
+  opacity: .9;
+}
+
+.tierArticles div form textarea {
+  display: flex;
+  width: 26vw;
+  max-width: 26vw;
+  min-width: 26vw;
+  height: 60px;
+  max-height: 120px;
+  padding: 2px 5px;
+  margin-bottom: 14px;
+  font-family: 'Raleway', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 20px;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: -.0rem; 
+  color: #283E4A;
+  opacity: .9;
 }
 
 .tierArticles div form div {
@@ -135,7 +166,7 @@
 .goForward:hover {
   background: rgb(88, 128, 146);
 }
-.goForward spam {
+.goForward span {
   margin: 1vw;
   letter-spacing: 0.06rem; 
   font-weight: 600;
@@ -150,7 +181,7 @@
   border-radius: 5px;
 }
 
-.goBack spam {
+.goBack span {
   margin-left: 1vw;
   letter-spacing: 0.1rem; 
   font-weight: 600;
@@ -195,6 +226,14 @@
   }
   .tierArticles div form input {
     width: 86vw;
+    margin-bottom: 14px;
+  }
+  .tierArticles div form textarea {
+    width: 86vw;
+    max-width: 86vw;
+    min-width: 86vw;
+    height: 60px;
+    max-height: 90px;
     margin-bottom: 14px;
   }
   .imgArticle {

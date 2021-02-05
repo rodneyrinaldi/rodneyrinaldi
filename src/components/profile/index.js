@@ -41,7 +41,7 @@ export default function Logo() {
                 width={14}
                 height={14}
               />
-              <spam>VOLTAR</spam>
+              <span>VOLTAR</span>
             </a>
           </Link>
 
