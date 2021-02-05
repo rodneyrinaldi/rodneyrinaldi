@@ -90,12 +90,29 @@
   width: 26vw;
   padding: 2px 5px;
   margin-bottom: 14px;
+
   line-height: 20px;
   font-weight: 300;
   font-size: 1rem;
   letter-spacing: -.0rem; 
   color: #283E4A;
   opacity: .9;
+
+  outline: none;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border: 1px solid #4f585e80;
+}
+
+.tierArticles div form input:hover {
+  border-color: #010f16af;
+}
+
+.tierArticles div form input:focus {
+  box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59);
+  -moz-box-shadow:  0px 0px 15px -3px rgba(43,81,178,0.59); 
+  -webkit-box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59); 
 }
 
 .tierArticles div form textarea {
@@ -107,6 +124,7 @@
   max-height: 120px;
   padding: 2px 5px;
   margin-bottom: 14px;
+
   font-family: 'Raleway', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
@@ -116,6 +134,22 @@
   letter-spacing: -.0rem; 
   color: #283E4A;
   opacity: .9;
+
+  outline: none;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border: 1px solid #4f585e80;
+}
+
+.tierArticles div form textarea:hover {
+  border-color: #010f16af;
+}
+
+.tierArticles div form textarea:focus {
+  box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59);
+  -moz-box-shadow:  0px 0px 15px -3px rgba(43,81,178,0.59); 
+  -webkit-box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59); 
 }
 
 .tierArticles div form div {
@@ -243,3 +277,5 @@
     order: 1;
   }
 }
+
+
