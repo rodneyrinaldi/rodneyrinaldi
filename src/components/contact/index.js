@@ -1,9 +1,59 @@
+import { useState } from 'react';
+import { useRouter } from "next/router"
 import Link from 'next/link'
 import Image from 'next/image'
+import emailjs from 'emailjs-com'
 
 import styles from './index.module.css'
 
-export default function Contact() {
+function Contact(props) {
+  const router = useRouter()
+
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
+
+  // const { query: { service }, } = router
+  const service = 'contact us rodneyrinaldi.com'
+
+  function handleSubmit(e) {
+    e.preventDefault()
+
+    console.log(props.EMAILJS_USER_ID)
+    console.log(props.EMAILJS_TEMPLATE_ID)
+    console.log(props.EMAILJS_USER_ID)
+
+    console.log(process.env.EMAILJS_SERVICE_ID)
+    console.log(process.env.EMAILJS_TEMPLATE_ID)
+    console.log(process.env.EMAILJS_USER_ID)
+
+
+
+    console.log(params)
+
+
+    return
+
+
+    const fields = `{name:${name}, email:${email}, message:${message}}`
+    const params = { sitename: service, emailaddress: email, emailmessage: fields }
+
+    emailjs.send(
+      props.EMAILJS_SERVICE_ID,
+      props.EMAILJS_TEMPLATE_ID,
+      params,
+      props.EMAILJS_USER_ID
+    ).then((result) => {
+      console.log(result.text)
+    }, (error) => {
+      console.log(error.text)
+    })
+
+    setName('')
+    setEmail('')
+    setMessage('')
+  }
+
   return (
     <>
       <header className="stripDark">
@@ -41,20 +91,17 @@ export default function Contact() {
               />
             </div>
             <div>
-              <form action="">
+              <form onSubmit={handleSubmit}>
                 <label htmlFor="contactName">Nome</label>
-                <input type="text" id="contactName" />
+                <input type="text" id="contactName"
+                  onChange={e => setName(e.target.value)} />
                 <label htmlFor="contactEmail">Email</label>
-                <input type="text" id="contactEmail" />
+                <input type="email" id="contactEmail"
+                  onChange={e => setEmail(e.target.value)} />
                 <label htmlFor="contactMessage">Mensagem</label>
-                <textarea id="contactMessage" />
-                <div>
-                  <Link href="htpps://dev.rodneyrinaldi.com">
-                    <a className={styles.goForward}>
-                      <span>ENVIAR</span>
-                    </a>
-                  </Link>
-                </div>
+                <textarea id="contactMessage"
+                  onChange={e => setMessage(e.target.value)} />
+                <input type="submit" value="ENVIAR" className={styles.goForward} />
               </form>
             </div>
           </div>
@@ -111,21 +158,35 @@ export default function Contact() {
             </ul>
           </nav>
         </div>
-        <Link href="/">
-          <a className={styles.goBack}>
-            <Image
-              src="/back.svg"
-              alt="voltar"
-              layout="intrinsic"
-              width={14}
-              height={14}
-            />
-            <span>VOLTAR</span>
-          </a>
-        </Link>
+        <a className={styles.goBack} onClick={() => router.back()}>
+          <Image
+            src="/back.svg"
+            alt="voltar"
+            layout="intrinsic"
+            width={14}
+            height={14}
+          />
+          <span>VOLTAR</span>
+        </a>
         <br />
       </footer>
 
     </>
   )
 }
+
+export async function getServerProps() {
+  return {
+    props: {
+      emailjsServiceId: process.env.EMAILJS_SERVICE_ID,
+      emailjsTemplateId: process.env.EMAILJS_TEMPLATE_ID,
+      emailjsUserId: process.env.EMAILJS_USER_ID
+    },
+    query: {
+
+    }
+  }
+}
+
+export default Contact
+

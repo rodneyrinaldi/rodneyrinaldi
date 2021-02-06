@@ -53,7 +53,7 @@ export default function Technology() {
                 participe ativamente do desenvolvimento gerenciado por metodologias ágeis.
               </p>
               <p> </p>
-              <Link href="htpps://dev.rodneyrinaldi.com">
+              <Link href="https://dev.rodneyrinaldi.com">
                 <a className={styles.goForward}>
                   <span>SAIBA MAIS</span>
                 </a>
@@ -82,7 +82,7 @@ export default function Technology() {
                 participe ativamente do desenvolvimento gerenciado por metodologias ágeis.
               </p>
               <p> </p>
-              <Link href="htpps://dev.rodneyrinaldi.com">
+              <Link href="https://dev.rodneyrinaldi.com">
                 <a className={styles.goForward}>
                   <span>SAIBA MAIS</span>
                 </a>
