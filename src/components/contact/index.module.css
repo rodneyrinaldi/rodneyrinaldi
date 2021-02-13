@@ -162,6 +162,12 @@
   max-width: 200px;
   margin: 0 0 0;
 }
+
+.imgArticle p {
+  line-height: 16px;
+  font-weight: 600;
+  font-size: .8rem;
+}
  
 .tierFooter nav {
   display: flex;

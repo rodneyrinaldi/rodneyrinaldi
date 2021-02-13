@@ -23,6 +23,15 @@
   border-radius: 5px;
 }
 
+.privacyLink {
+  margin-top: 20px;
+  color: whitesmoke;
+}
+.privacyLink:hover {
+  color:white;
+  text-decoration: underline;
+}
+
 /* ------------- */
 
 @media (max-width: 900px) {  

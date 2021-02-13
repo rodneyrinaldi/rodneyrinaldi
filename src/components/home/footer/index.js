@@ -76,6 +76,9 @@ export default function Nav() {
             </li>
           </ul>
         </nav>
+        <Link href="/privacy">
+          <a className={styles.privacyLink}>Política de privacidade e proteção de dados</a>
+        </Link>
       </div>
     </div>
   )

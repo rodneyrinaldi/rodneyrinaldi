@@ -29,9 +29,6 @@ function Contact(props) {
 
 
 
-    console.log(params)
-
-
     return
 
 
@@ -89,6 +86,10 @@ function Contact(props) {
                 width={200}
                 height={200}
               />
+              <p>
+                <input type="checkbox" id="myCheck" onclick="" />
+                  Concordo com a Política de Privacidade e Proteção de Dados
+              </p>
             </div>
             <div>
               <form onSubmit={handleSubmit}>
@@ -176,6 +177,9 @@ function Contact(props) {
 }
 
 export async function getServerProps() {
+  console.log(process.env.EMAILJS_SERVICE_ID)
+  console.log(process.env.EMAILJS_TEMPLATE_ID)
+  console.log(process.env.EMAILJS_USER_ID)
   return {
     props: {
       emailjsServiceId: process.env.EMAILJS_SERVICE_ID,
