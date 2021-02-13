@@ -86,10 +86,6 @@ function Contact(props) {
                 width={200}
                 height={200}
               />
-              <p>
-                <input type="checkbox" id="myCheck" onclick="" />
-                  Concordo com a Política de Privacidade e Proteção de Dados
-              </p>
             </div>
             <div>
               <form onSubmit={handleSubmit}>
@@ -103,6 +99,7 @@ function Contact(props) {
                 <textarea id="contactMessage"
                   onChange={e => setMessage(e.target.value)} />
                 <input type="submit" value="ENVIAR" className={styles.goForward} />
+                <p><input type="checkbox" id="myCheck" onclick="" />Concordo com a Política de Privacidade e Proteção de Dados</p>
               </form>
             </div>
           </div>
