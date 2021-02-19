@@ -8,21 +8,96 @@ export default function Advocacy() {
     <>
       <header className="stripDark">
         <div className={styles.tierHeader}>
-          <Image
-            src="/rodneyrinaldi.svg"
-            alt="foto rodney rinaldi"
-            layout="intrinsic"
-            width={1800}
-            height={703}
-          />
+          <Link href="/">
+            <a>
+              <Image
+                src="/rodneyrinaldi.svg"
+                alt="foto rodney rinaldi"
+                layout="intrinsic"
+                width={300}
+                height={50}
+              />
+            </a>
+          </Link>
         </div>
       </header>
 
       <main className='stripLight'>
         <div className={styles.tierMain}>
 
-          <h3>Advocacia</h3>
-          <p>xxxx</p>
+          <h2>Foco no Cliente</h2>
+          <h3>
+            Estratégia de posicionamento do cliente em primeiro plano, promovendo a experiência de uma jornada memorável.
+          </h3>
+
+          <div className={styles.tierArticles}>
+            <div className={styles.imgArticle}>
+              <Image
+                src="/techiconsfocus.png"
+                alt="customer centricity"
+                layout="intrinsic"
+                width={200}
+                height={200}
+              />
+            </div>
+            <div>
+              <p>
+                Expertise no atendimento a clientes e consumidores fundada na experiência cumulada desde os anos 90,
+                e tendo acompanhado a evolução do mercado desde a entrada do Código de Defesa do Consumidor,
+                desenvolvimento de soluções Business to Business, Business to Consumer, Data Warehouse e Business Intelligence.
+              </p>
+              <p>
+                Desenhe a solução mais adequada as suas necessidades,
+                para isto utilize as tecnologias mais apropriadas,
+                tenha tranquilidade durante a execução do projeto,
+                participe ativamente do desenvolvimento gerenciado por metodologias ágeis.
+              </p>
+              <p> </p>
+              <Link href="https://dev.rodneyrinaldi.com">
+                <a className={styles.goForward}>
+                  <span>SAIBA MAIS</span>
+                </a>
+              </Link>
+            </div>
+          </div>
+
+          <h2>Custo Benefício</h2>
+          <h3>
+            Estratégia de avaliação de um projeto quanto a sua aplicabilidade,
+            demonstrando a viabilidade ou não a partir do estudo dos fatores positivos e negativos,
+            presentes e futuros.
+          </h3>
+
+          <div className={styles.tierArticles}>
+            <div className={styles.imgInvert}>
+              <p>
+                Expertise no atendimento a clientes e consumidores fundada na experiência cumulada desde os anos 90,
+                e tendo acompanhado a evolução do mercado desde a entrada do Código de Defesa do Consumidor,
+                desenvolvimento de soluções Business to Business, Business to Consumer, Data Warehouse e Business Intelligence.
+              </p>
+              <p>
+                Desenhe a solução mais adequada as suas necessidades,
+                para isto utilize as tecnologias mais apropriadas,
+                tenha tranquilidade durante a execução do projeto,
+                participe ativamente do desenvolvimento gerenciado por metodologias ágeis.
+              </p>
+              <p> </p>
+              <Link href="https://dev.rodneyrinaldi.com">
+                <a className={styles.goForward}>
+                  <span>SAIBA MAIS</span>
+                </a>
+              </Link>
+            </div>
+            <div className={styles.imgArticle}>
+              <Image
+                src="/techiconscost.png"
+                alt="customer centricity"
+                layout="intrinsic"
+                width={200}
+                height={200}
+              />
+            </div>
+          </div>
 
         </div>
       </main>
@@ -88,6 +163,7 @@ export default function Advocacy() {
             <span>VOLTAR</span>
           </a>
         </Link>
+        <br />
       </footer>
     </>
   )

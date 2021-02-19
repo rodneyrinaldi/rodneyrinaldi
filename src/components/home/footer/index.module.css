@@ -24,8 +24,9 @@
 }
 
 .privacyLink {
-  margin-top: 20px;
+  margin-top: 40px;
   color: whitesmoke;
+  font-size: 12px;
 }
 .privacyLink:hover {
   color:white;
@@ -37,6 +38,10 @@
 @media (max-width: 900px) {  
 }
 
-@media (max-width: 1100px) {  
+@media (max-width: 1100px) { 
+  .privacyLink {
+    margin-top: 10px;
+    color: whitesmoke;
+  } 
 }
   
