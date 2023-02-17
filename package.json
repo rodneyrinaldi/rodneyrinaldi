@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "devold": "next dev",
+    "buildold": "next build",
+    "startold": "next start",
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && next dev",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build"
   },
   "dependencies": {
     "next": "11.1.0",
