@@ -1,0 +1,29 @@
+:root {
+  --color-text: #9c98a6;
+  --color-background: #f0f0f7;
+  --width-logo: 100px;
+}
+
+html,
+body,
+input,
+h1,
+h2,
+h3,
+p,
+a {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

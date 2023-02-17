@@ -1,0 +1,30 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5vh;
+}
+.grid div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+.grid div img {
+  width: 50%;
+}
+.grid div p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+  color: #090909;
+}
+
+@media (max-width: 600px) {
+  .grid div img {
+    width: 90%;
+  }
+}
